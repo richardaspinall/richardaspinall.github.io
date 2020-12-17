@@ -13,4 +13,5 @@
 ### Production
 * Push to main branch
 
-
+## Resources
+* https://jekyllrb.com/
