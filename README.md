@@ -1,4 +1,3 @@
-# richardaspinall.github.io
 > [Personal website](richardaspinall.github.io)
 
 ## Steps
