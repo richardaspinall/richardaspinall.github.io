@@ -1,7 +1,7 @@
 > [Personal website](richardaspinall.github.io)
 
 ## Steps
-1. Created build with Jekyll and set up Github actions
+1. Created build with Jekyll and set up Github actions to automatically build the website
 
 ## Usage
 
