@@ -12,7 +12,63 @@ title: Home
 </head>
 
 <body>
-    <h1>{{ "Hello World!!" | downcase }}</h1>
+    <header>
+        <div>
+            <h1>{{"richard" | downcase}}</h1>
+            <h1>{{"aspinall" | downcase}}</h1>
+        </div>
+
+        <div id="header-aside">
+            <div id="header-image">
+                <img src="assets/images/me.jpg" class="img-fluid" width="100%" alt="Responsive image">
+
+            </div>
+            <div id="header-links">
+                <a href="assets/images/cv.pdf" target="_blank">
+                    <h2>cv</h2>
+                </a>
+
+                <a href="https://www.linkedin.com/in/richardaspinall/" rel="noopener noreferrer" target="_blank">
+                    <h2>linkedin</h2>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <h1>projects</h1>
+        <section id="projects">
+
+            {% for project in site.projects %}
+            <article>
+                <div class="project-header">
+                    <h2>{{ project.title }}</h2>
+                </div>
+                <div class="project-content">
+                    <div class="project-tags">
+                        <ul>
+                            {% for tag in project.tags %}
+                            <li>{{ tag }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div class="project-about">
+                        <p>{{ project.content | markdownify }} </p>
+                    </div>
+                    <div class="project-links">
+                        <a href="{{ project.code_link }}" target="_blank" rel="noopener noreferrer"
+                            class="project-links-code">
+                            <h3>code</h3>
+                        </a>
+                        <a href="{{ project.demo_link }}" class="project-links-demo">
+                            <h3>demo</h3>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            {% endfor %}
+
+        </section>
+    </section>
 </body>
 
 </html>
