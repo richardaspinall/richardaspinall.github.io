@@ -2,17 +2,103 @@
 layout: default
 title: Home
 ---
-<!DOCTYPE html>
-<html lang="en">
+<header>
+    <div>
+        <h1>{{"RICHARD" | downcase}}</h1>
+        <h1>{{"ASPINALL" | downcase}}</h1>
+    </div>
 
-<head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+    <div id="header-aside">
+        <div id="header-image">
+            <img src="assets/images/me.jpg" class="img-fluid" width="100%" alt="Responsive image">
 
-<body>
-    <h1>{{ "Hello World!!" | downcase }}</h1>
-</body>
+        </div>
+        <div id="header-links">
+            <a href="assets/images/cv.pdf" target="_blank">
+                <h2>cv</h2>
+            </a>
 
-</html>
+            <a href="https://www.linkedin.com/in/richardaspinall/" rel="noopener noreferrer" target="_blank">
+                <h2>linkedin</h2>
+            </a>
+        </div>
+    </div>
+</header>
+<section>
+    <a href="/projects.html">
+        <h1>projects</h1>
+    </a>
+    <section id="projects">
+        {% assign sorted_pages = site.projects | sort:"order" | reverse %}
+        {% for project in sorted_pages limit:3 %}
+        <article>
+            <div class="project-header">
+                <h2>{{ project.title }}</h2>
+            </div>
+            <div class="project-content">
+                <div class="project-tags">
+                    <ul>
+                        {% for tag in project.tags %}
+                        <li>{{ tag }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="project-about">
+                    <p>{{ project.content | markdownify }} </p>
+                </div>
+                <div class="project-links">
+                    <a href="{{ project.code_link }}" target="_blank" rel="noopener noreferrer"
+                        class="project-links-code">
+                        <h3>code</h3>
+                    </a>
+                    {% if project.demo_link %}
+                    <a href="{{ project.demo_link }}" target="_blank" class="project-links-demo">
+                        <h3>demo</h3>
+                    </a>
+                    {% endif %}
+
+                </div>
+            </div>
+        </article>
+        {% endfor %}
+
+    </section>
+    <a href="/courses.html">
+        <h1>courses</h1>
+    </a>
+    <section id="projects">
+        {% assign sorted_pages = site.courses | sort:"order" | reverse %}
+        {% for course in sorted_pages limit:3 %}
+        <article>
+            <div class="project-header">
+                <h2>{{ course.title }}</h2>
+            </div>
+            <div class="project-content">
+                <div class="project-tags">
+                    <ul>
+                        {% for tag in course.tags %}
+                        <li>{{ tag }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="project-about">
+                    <p>{{ course.content | markdownify }} </p>
+                </div>
+                <div class="project-links">
+                    <a href="{{ course.code_link }}" target="_blank" rel="noopener noreferrer"
+                        class="project-links-code">
+                        <h3>code</h3>
+                    </a>
+                    {% if course.demo_link %}
+                    <a href="{{ project.demo_link }}" target="_blank" class="project-links-demo">
+                        <h3>demo</h3>
+                    </a>
+                    {% endif %}
+
+                </div>
+            </div>
+        </article>
+        {% endfor %}
+
+    </section>
+</section>
