@@ -1,0 +1,43 @@
+---
+layout: default
+title: Courses
+---
+
+<section>
+    <h1>courses</h1>
+    <section id="projects">
+        {% assign sorted_pages = site.courses | sort:"order" | reverse %}
+        {% for course in sorted_pages limit:3 %}
+        <article>
+            <div class="project-header">
+                <h2>{{ course.title }}</h2>
+            </div>
+            <div class="project-content">
+                <div class="project-tags">
+                    <ul>
+                        {% for tag in project.tags %}
+                        <li>{{ tag }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="project-about">
+                    <p>{{ course.content | markdownify }} </p>
+                </div>
+                <div class="project-links">
+                    <a href="{{ course.code_link }}" target="_blank" rel="noopener noreferrer"
+                        class="project-links-code">
+                        <h3>code</h3>
+                    </a>
+                    {% if course.demo_link %}
+                    <a href="{{ project.demo_link }}" target="_blank" class="project-links-demo">
+                        <h3>demo</h3>
+                    </a>
+                    {% endif %}
+
+                </div>
+            </div>
+        </article>
+        {% endfor %}
+
+    </section>
+</section>

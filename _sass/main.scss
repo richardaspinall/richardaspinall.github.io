@@ -24,6 +24,10 @@ h3 {
   font-weight: 200;
 }
 
+a {
+  color: $color-floral-white;
+}
+
 body {
   background-color: $background-dark;
   font-family: 'Lato', sans-serif;
@@ -160,21 +164,17 @@ header > div:nth-child(2) {
   left: 0px;
   padding-top: 10px;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   width: 100%;
   padding: 10px;
-  .project-links-code {
-    grid-column-start: 1;
-    grid-column-end: 2;
-  }
-  .project-links-demo {
-    grid-column-start: 2;
-    grid-column-end: 3;
-  }
-  .project-links-resources {
-    grid-column-start: 1;
-    grid-column-end: 3;
-  }
+  // .project-links-code {
+  //   grid-column-start: 1;
+  //   grid-column-end: 3;
+  // }
+  // .project-links-demo {
+  //   grid-column-start: 2;
+  //   grid-column-end: 3;
+  // }
   a {
     text-decoration: none;
     color: $color-floral-white;

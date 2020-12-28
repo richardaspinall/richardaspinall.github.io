@@ -6,6 +6,8 @@ h2 { font-weight: 200; font-size: 2em; }
 
 h3 { font-weight: 200; }
 
+a { color: #fffaf0; }
+
 body { background-color: black; font-family: 'Lato', sans-serif; font-weight: 200; color: #fffaf0; padding-left: 10%; padding-right: 10%; }
 
 article { margin: 6px; padding: 15px; }
@@ -46,13 +48,7 @@ header > div:nth-child(2) { border: inset thin; border-color: #fffaf0; border-ra
 
 .project-tags li { list-style: none; display: inline-block; background-color: #d1c4e9; padding: 5px; border-radius: 5px; margin-bottom: 3px; margin-right: 3px; }
 
-.project-links { position: absolute; bottom: 0px; left: 0px; padding-top: 10px; display: grid; grid-template-columns: auto auto; width: 100%; padding: 10px; }
-
-.project-links .project-links-code { grid-column-start: 1; grid-column-end: 2; }
-
-.project-links .project-links-demo { grid-column-start: 2; grid-column-end: 3; }
-
-.project-links .project-links-resources { grid-column-start: 1; grid-column-end: 3; }
+.project-links { position: absolute; bottom: 0px; left: 0px; padding-top: 10px; display: grid; grid-template-columns: auto; width: 100%; padding: 10px; }
 
 .project-links a { text-decoration: none; color: #fffaf0; margin: 3px; border: solid thin; border-color: #fffaf0; font-size: 1.2em; border-radius: 5px; text-align: center; }
 
