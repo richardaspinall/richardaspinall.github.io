@@ -115,7 +115,7 @@ header > div:nth-child(2) {
     min-width: 300px;
     max-width: 600px;
     margin: 6px;
-    padding: 15px;
+    padding: 30px;
     padding-bottom: 100px;
     color: $background-dark;
     border: outset;
@@ -127,6 +127,7 @@ header > div:nth-child(2) {
 
 .project-header {
   padding-bottom: 10px;
+  height: 200px;
 }
 
 .project-content {
@@ -147,6 +148,7 @@ header > div:nth-child(2) {
 
 .project-tags {
   padding-bottom: 10px;
+  padding-right: 20px;
   li {
     list-style: none;
     display: inline-block;
@@ -156,6 +158,14 @@ header > div:nth-child(2) {
     margin-bottom: 3px;
     margin-right: 3px;
   }
+}
+
+.course-tag {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: $color-floral-white;
+  font-size: large;
 }
 
 .project-links {
