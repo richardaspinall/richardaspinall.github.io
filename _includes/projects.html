@@ -1,12 +1,12 @@
 <article>
     <div class="project-header">
-        <h2>{{ project.title }}</h2>
+        <h2>{{ project.name }}</h2>
     </div>
     <div class="project-content">
         <div class="project-tags">
             <ul>
-                {% for tag in project.tags %}
-                {% if tag =="COURSE" %}
+                {% for tag in project.topics.names %}
+                {% if tag =="course-project" %}
                 <label class="course-tag">{{ tag | upcase}}</label>
                 {% else %}
                 <li>{{ tag | upcase}}</li>
@@ -15,14 +15,14 @@
             </ul>
         </div>
         <div class="project-about">
-            <p>{{ project.content | markdownify }} </p>
+            <p>{{ project.description | markdownify }} </p>
         </div>
         <div class="project-links">
-            <a href="{{ project.code_link }}" target="_blank" rel="noopener noreferrer" class="project-links-code">
+            <a href="{{ project.githubUrl }}" target="_blank" rel="noopener noreferrer" class="project-links-code">
                 <h3>code</h3>
             </a>
-            {% if project.demo_link %}
-            <a href="{{ project.demo_link }}" target="_blank" class="project-links-demo">
+            {% if project.homepage %}
+            <a href="{{ project.homepage }}" target="_blank" class="project-links-demo">
                 <h3>demo</h3>
             </a>
             {% endif %}

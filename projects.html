@@ -6,7 +6,7 @@ title: Projects
 <section>
     <h1>projects</h1>
     <section id="projects">
-        {% assign sorted_pages = site.projects | sort:"order" | reverse %}
+        {% assign sorted_pages = site.data.project-data | sort:"order" | reverse %}
         {% for project in sorted_pages %}
         {% include projects.html %}
         {% endfor %}
