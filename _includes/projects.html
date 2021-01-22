@@ -23,8 +23,8 @@
             <p>{{ project.description | markdownify }} </p>
         </div>
         <div class="project-links">
-            <a href="{{ project.githubUrl }}" target="_blank" rel="noopener noreferrer" class="project-links-code">
-                <h3>code</h3>
+            <a href="{{ project.readme }}" target="_blank" rel="noopener noreferrer" class="project-links-code">
+                <h3>readme</h3>
             </a>
             {% if project.homepage %}
             <a href="{{ project.homepage }}" target="_blank" class="project-links-demo">
