@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "name": "confusion-website",
+    "description": "Coursera course on front-end web UI frameworks and tools with Bootstrap 4",
+    "githubUrl": "https://github.com/richardaspinall/confusion-website",
+    "readme": "https://github.com/richardaspinall/confusion-website/blob/main/README.md",
+    "homepage": "https://pickled-crocus-balloon.glitch.me/",
+    "topics": {
+      "names": [
+        "html",
+        "bootstrap",
+        "coursera-course",
+        "skills",
+        "coursera-front",
+        "sass",
+        "css",
+        "course-project"
+      ]
+    }
+  },
+  {
+    "name": "explore-git",
+    "description": "Sandbox to learn Git",
+    "githubUrl": "https://github.com/richardaspinall/explore-git",
+    "readme": "https://github.com/richardaspinall/explore-git/blob/main/README.md",
+    "homepage": "",
+    "topics": { "names": ["git", "github"] }
+  },
+  {
+    "name": "richardaspinall.github.io",
+    "description": "Portfolio website",
+    "githubUrl": "https://github.com/richardaspinall/richardaspinall.github.io",
+    "readme": "https://github.com/richardaspinall/richardaspinall.github.io/blob/main/README.md",
+    "homepage": "https://richardaspinall.github.io",
+    "topics": { "names": ["jekyll", "html", "css"] }
+  }
+]

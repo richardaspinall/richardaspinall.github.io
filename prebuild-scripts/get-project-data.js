@@ -76,7 +76,6 @@ async function getProjectDataFromGithub() {
       projects.push(project);
     }
   }
-  console.log(projects[0]);
 
   fs.writeFile('../_data/project-data.json', JSON.stringify(projects), function (err) {
     if (err) throw err;
