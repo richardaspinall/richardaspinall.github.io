@@ -149,8 +149,8 @@ header > div:nth-child(2) {
 .project-tags {
   padding-bottom: 10px;
   padding-right: 20px;
-  li {
-    list-style: none;
+  a {
+    text-decoration: none;
     display: inline-block;
     background-color: $background-pale;
     padding: 5px;

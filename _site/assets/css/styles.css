@@ -46,7 +46,7 @@ header > div:nth-child(2) { border: inset thin; border-color: #fffaf0; border-ra
 
 .project-tags { padding-bottom: 10px; padding-right: 20px; }
 
-.project-tags li { list-style: none; display: inline-block; background-color: #d1c4e9; padding: 5px; border-radius: 5px; margin-bottom: 3px; margin-right: 3px; }
+.project-tags a { text-decoration: none; display: inline-block; background-color: #d1c4e9; padding: 5px; border-radius: 5px; margin-bottom: 3px; margin-right: 3px; }
 
 .course-tag { position: absolute; right: 0px; top: 0px; background-color: #fffaf0; font-size: large; }
 
