@@ -39,9 +39,10 @@ title: Home
         <h1>projects</h1>
     </a>
     <section id="projects">
-        {% assign sorted_pages = site.projects | sort:"order" | reverse %}
+        {% assign sorted_pages = site.data.project-data | sort:"order" | reverse %}
         {% for project in sorted_pages limit:3 %}
         {% include projects.html %}
         {% endfor %}
     </section>
+
 </section>
