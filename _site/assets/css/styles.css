@@ -6,16 +6,16 @@ h2 { font-weight: 200; font-size: 2em; }
 
 h3 { font-weight: 200; }
 
-a { color: #fffaf0; }
+a { color: black; }
 
-body { background-color: black; font-family: 'Lato', sans-serif; font-weight: 200; color: #fffaf0; padding-left: 10%; padding-right: 10%; }
+body { background-color: #fffaf0; font-family: 'Lato', sans-serif; font-weight: 200; color: black; padding-left: 10%; padding-right: 10%; }
 
 article { margin: 6px; padding: 15px; }
 
 @media (max-width: 400px) { body { padding-left: 0%; padding-right: 0%; } }
 
 /*  Header Section ! */
-header { color: #fffaf0; padding: 6px; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+header { padding: 6px; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
 
 #header-title { margin: 6px; padding: 15px; display: flex; }
 
@@ -29,14 +29,14 @@ header > div:nth-child(2) { border: inset thin; border-color: #fffaf0; border-ra
 
 #header-links a { text-decoration: none; }
 
-#header-links a h2 { color: #fffaf0; margin: 3px; padding: 5px; border: solid thin; border-color: #fffaf0; border-radius: 5px; text-align: groove; }
+#header-links a h2 { margin: 3px; padding: 5px; border: solid thin; border-color: #fffaf0; border-radius: 5px; text-align: groove; }
 
 /*  Projects Section  */
-#projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); justify-items: center; padding: 6px; }
+#projects { display: grid; justify-items: center; padding: 6px; }
 
-#projects article { background-color: grey; min-width: 300px; max-width: 600px; margin: 6px; padding: 30px; padding-bottom: 100px; color: black; border: outset; border-color: grey; border-width: 3px; position: relative; }
+#projects article { background-color: #fffaf0; min-width: 300px; max-width: 600px; margin: 6px; padding: 30px; padding-bottom: 100px; border: outset; border-color: grey; border-width: 3px; position: relative; }
 
-.project-header { padding-bottom: 10px; height: 200px; }
+.project-header { padding-bottom: 10px; }
 
 .project-content { display: grid; grid-template-columns: auto auto; }
 
@@ -52,6 +52,6 @@ header > div:nth-child(2) { border: inset thin; border-color: #fffaf0; border-ra
 
 .project-links { position: absolute; bottom: 0px; left: 0px; padding-top: 10px; display: grid; grid-template-columns: auto; width: 100%; padding: 10px; }
 
-.project-links a { text-decoration: none; color: #fffaf0; margin: 3px; border: solid thin; border-color: #fffaf0; font-size: 1.2em; border-radius: 5px; text-align: center; }
+.project-links a { text-decoration: none; margin: 3px; border: solid thin; border-color: black; font-size: 1.2em; border-radius: 5px; text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
