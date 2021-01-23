@@ -3,6 +3,7 @@ $background-dark: black;
 $background-light: grey;
 $background-pale: #d1c4e9;
 $color-floral-white: #fffaf0;
+$background-blue: lightsteelblue;
 
 * {
   margin: 0;
@@ -15,6 +16,33 @@ h1 {
   font-size: 4em;
 }
 
+//// NEW
+
+div h1:nth-child(1) {
+  letter-spacing: 0.021em;
+}
+
+img {
+  border: solid;
+  border-radius: 50%;
+  width: 125px;
+  margin-top: 45px;
+}
+
+div#myname {
+  display: inline-block;
+  float: left;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height: 200px;
+}
+
+div#myimage {
+  display: inline-block;
+  padding-left: 30px;
+}
+
+/////
 h2 {
   font-weight: 200;
   font-size: 2em;
@@ -29,7 +57,7 @@ a {
 }
 
 body {
-  background-color: $color-floral-white;
+  background-color: $background-blue;
   font-family: 'Lato', sans-serif;
   font-weight: 200;
   color: black;
@@ -56,17 +84,13 @@ article {
 header {
   padding: 6px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  //grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  justify-items: center;
 }
 #header-title {
   margin: 6px;
   padding: 15px;
   display: flex;
-}
-header > div:nth-child(2) {
-  border: inset thin;
-  border-color: $color-floral-white;
-  border-radius: 5px;
 }
 
 #header-aside {
@@ -77,9 +101,7 @@ header > div:nth-child(2) {
 #header-image {
   width: 50%;
   min-width: 150px;
-  max-width: 300px;
-  grid-column-start: 1;
-  grid-column-end: 2;
+  max-width: 150px;
 }
 
 #header-links {
@@ -92,9 +114,7 @@ header > div:nth-child(2) {
       margin: 3px;
       padding: 5px;
       border: solid thin;
-      border-color: $color-floral-white;
       border-radius: 5px;
-      text-align: groove;
     }
   }
 }
@@ -109,15 +129,15 @@ header > div:nth-child(2) {
   padding: 6px;
   article {
     background-color: $color-floral-white;
-    min-width: 300px;
-    max-width: 600px;
+    position: relative;
+    width: 500px;
+    height: 250px;
     margin: 6px;
     padding: 30px;
     padding-bottom: 100px;
-    border: outset;
-    border-color: $background-light;
+    border: solid;
     border-width: 3px;
-    position: relative;
+    border-radius: 20px;
   }
 }
 
@@ -128,11 +148,10 @@ header > div:nth-child(2) {
 
 .project-content {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% auto;
 
   div {
     vertical-align: top;
-    min-width: 50%;
     flex-grow: 1;
   }
   .project-about {
@@ -143,8 +162,9 @@ header > div:nth-child(2) {
 }
 
 .project-tags {
+  height: 80px;
   padding-bottom: 10px;
-  padding-right: 20px;
+  overflow: scroll;
   a {
     text-decoration: none;
     display: inline-block;
@@ -158,9 +178,9 @@ header > div:nth-child(2) {
 
 .course-tag {
   position: absolute;
-  right: 0px;
-  top: 0px;
-  background-color: $color-floral-white;
+  right: 10px;
+  top: 10px;
+  background-color: aliceblue;
   font-size: large;
 }
 
@@ -172,7 +192,7 @@ header > div:nth-child(2) {
   display: grid;
   grid-template-columns: auto;
   width: 100%;
-  padding: 10px;
+  padding: 0 30px 10px;
   a {
     text-decoration: none;
     margin: 3px;

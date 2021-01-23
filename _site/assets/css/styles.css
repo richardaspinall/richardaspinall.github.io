@@ -2,55 +2,61 @@
 
 h1 { font-weight: 300; font-size: 4em; }
 
+div h1:nth-child(1) { letter-spacing: 0.021em; }
+
+img { border: solid; border-radius: 50%; width: 125px; margin-top: 45px; }
+
+div#myname { display: inline-block; float: left; padding-top: 25px; padding-bottom: 25px; height: 200px; }
+
+div#myimage { display: inline-block; padding-left: 30px; }
+
 h2 { font-weight: 200; font-size: 2em; }
 
 h3 { font-weight: 200; }
 
 a { color: black; }
 
-body { background-color: #fffaf0; font-family: 'Lato', sans-serif; font-weight: 200; color: black; padding-left: 10%; padding-right: 10%; }
+body { background-color: lightsteelblue; font-family: 'Lato', sans-serif; font-weight: 200; color: black; padding-left: 10%; padding-right: 10%; }
 
 article { margin: 6px; padding: 15px; }
 
 @media (max-width: 400px) { body { padding-left: 0%; padding-right: 0%; } }
 
 /*  Header Section ! */
-header { padding: 6px; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+header { padding: 6px; display: grid; justify-items: center; }
 
 #header-title { margin: 6px; padding: 15px; display: flex; }
 
-header > div:nth-child(2) { border: inset thin; border-color: #fffaf0; border-radius: 5px; }
-
 #header-aside { margin: 6px; padding: 15px; display: grid; }
 
-#header-image { width: 50%; min-width: 150px; max-width: 300px; grid-column-start: 1; grid-column-end: 2; }
+#header-image { width: 50%; min-width: 150px; max-width: 150px; }
 
 #header-links { grid-column-start: 3; grid-column-end: 4; }
 
 #header-links a { text-decoration: none; }
 
-#header-links a h2 { margin: 3px; padding: 5px; border: solid thin; border-color: #fffaf0; border-radius: 5px; text-align: groove; }
+#header-links a h2 { margin: 3px; padding: 5px; border: solid thin; border-radius: 5px; }
 
 /*  Projects Section  */
 #projects { display: grid; justify-items: center; padding: 6px; }
 
-#projects article { background-color: #fffaf0; min-width: 300px; max-width: 600px; margin: 6px; padding: 30px; padding-bottom: 100px; border: outset; border-color: grey; border-width: 3px; position: relative; }
+#projects article { background-color: #fffaf0; position: relative; width: 500px; height: 250px; margin: 6px; padding: 30px; padding-bottom: 100px; border: solid; border-width: 3px; border-radius: 20px; }
 
 .project-header { padding-bottom: 10px; }
 
-.project-content { display: grid; grid-template-columns: auto auto; }
+.project-content { display: grid; grid-template-columns: 50% auto; }
 
-.project-content div { vertical-align: top; min-width: 50%; flex-grow: 1; }
+.project-content div { vertical-align: top; flex-grow: 1; }
 
 .project-content .project-about { max-height: 200px; max-width: 100%; overflow: scroll; }
 
-.project-tags { padding-bottom: 10px; padding-right: 20px; }
+.project-tags { height: 80px; padding-bottom: 10px; overflow: scroll; }
 
 .project-tags a { text-decoration: none; display: inline-block; background-color: #d1c4e9; padding: 5px; border-radius: 5px; margin-bottom: 3px; margin-right: 3px; }
 
-.course-tag { position: absolute; right: 0px; top: 0px; background-color: #fffaf0; font-size: large; }
+.course-tag { position: absolute; right: 10px; top: 10px; background-color: aliceblue; font-size: large; }
 
-.project-links { position: absolute; bottom: 0px; left: 0px; padding-top: 10px; display: grid; grid-template-columns: auto; width: 100%; padding: 10px; }
+.project-links { position: absolute; bottom: 0px; left: 0px; padding-top: 10px; display: grid; grid-template-columns: auto; width: 100%; padding: 0 30px 10px; }
 
 .project-links a { text-decoration: none; margin: 3px; border: solid thin; border-color: black; font-size: 1.2em; border-radius: 5px; text-align: center; }
 
