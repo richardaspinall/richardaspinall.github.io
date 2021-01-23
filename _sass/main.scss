@@ -42,6 +42,65 @@ div#myimage {
   padding-left: 30px;
 }
 
+HTML CSSResult Skip Results Iframe EDIT ON body {
+  background-color: #66d0ff;
+}
+.cloud {
+  margin-top: 70px;
+  width: 130px;
+  height: 50px;
+  background: #eceff1;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+}
+.cloud::after,
+.cloud::before {
+  content: '';
+  position: relative;
+  display: inline-block;
+  background: inherit;
+  border-radius: inherit;
+}
+.cloud::after {
+  width: 30px;
+  height: 30px;
+  top: -50px;
+  left: -40px;
+}
+.cloud::before {
+  width: 60px;
+  height: 60px;
+  top: -30px;
+  left: 40px;
+}
+
+#cloud1 {
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  z-index: -1;
+}
+
+#cloud2 {
+  position: absolute;
+  top: 300px;
+  right: 500px;
+  z-index: -1;
+}
+
+#cloud3 {
+  position: absolute;
+  top: 600px;
+  right: 100px;
+  z-index: -1;
+}
+
+#cloud4 {
+  position: absolute;
+  top: 70px;
+  right: 100px;
+  z-index: -1;
+}
 /////
 h2 {
   font-weight: 200;
