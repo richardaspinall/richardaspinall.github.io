@@ -72,7 +72,7 @@ header { padding: 6px; display: grid; justify-items: center; }
 
 .project-tags a { text-decoration: none; display: inline-block; background-color: #d1c4e9; padding: 5px; border-radius: 5px; margin-bottom: 3px; margin-right: 3px; }
 
-.course-tag { position: absolute; right: 10px; top: 10px; background-color: aliceblue; font-size: large; }
+.course-tag { position: absolute; right: 0px; top: 30px; background-color: aliceblue; font-size: large; transform: rotate(20deg); }
 
 .project-links { position: absolute; bottom: 0px; left: 0px; padding-top: 10px; display: grid; grid-template-columns: auto; width: 100%; padding: 0 30px 10px; }
 
