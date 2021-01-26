@@ -6,36 +6,63 @@ title: Home
 
 
 <header>
-    <div>
+    <section>
         <div id="home-title">
-            <h1>richard</h1>
-            <h1>aspinall</h1>
+            <div>
+                <h1>richard</h1>
+                <h1>aspinall</h1>
+            </div>
+            <div>
+                <img src="assets/images/me.jpg" alt="Responsive image">
+            </div>
         </div>
-        <div id="home-image">
-            <img src="assets/images/me.jpg" class="img-fluid" alt="Responsive image">
-        </div>
-    </div>
-
-
-
-    <a href="assets/images/cv.pdf" target="_blank">
-        <h2>cv</h2>
-    </a>
-
-    <a href="https://www.linkedin.com/in/richardaspinall/" rel="noopener noreferrer" target="_blank">
-        <h2>linkedin</h2>
-    </a>
-
+    </section>
 </header>
 
-<ul>
-    {% for post in site.posts %}
-    <li>
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        {{ post.excerpt }}
-    </li>
-    {% endfor %}
-</ul>
+<section>
+
+    <article>
+        <div id="socials">
+            <div>
+                <a href="assets/images/cv.pdf" target="_blank">
+                    <h2><i class="fas fa-file"> </i> cv</i>
+                    </h2>
+                </a>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/richardaspinall/" rel="noopener noreferrer" target="_blank">
+                    <h2><i class="fab fa-linkedin-in"></i> linkedin </i>
+                    </h2>
+                </a>
+            </div>
+
+            <div>
+                <a href="https://github.com/richardaspinall/" rel="noopener noreferrer" target="_blank">
+                    <h2><i class="fab fa-github"></i> github </i>
+                        </i>
+                    </h2>
+                </a>
+            </div>
+        </div>
+    </article>
+
+</section>
+
+<section>
+
+    <article id="blog">
+        <ul>
+            {% for post in site.posts %}
+            <li>
+                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                {{ post.excerpt }}
+            </li>
+            {% endfor %}
+        </ul>
+    </article>
+
+</section>
+
 
 <section>
 

@@ -1,8 +1,8 @@
-- name: Home
+- name: home
   link: /
-- name: About
+- name: about
   link: /about.html
-- name: Projects
+- name: projects
   link: /projects.html
-- name: Blog
+- name: blog
   link: /blog.html
