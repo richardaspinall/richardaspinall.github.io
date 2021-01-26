@@ -69,9 +69,10 @@ title: Home
         <article id="blog">
 
             <ul>
-                {% for post in site.posts %}
+                {% for post in site.posts limit:2 %}
                 <li>
-                    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                    <h3><a href="{{ post.url }}">{{ post.title | downcase }}</a></h3>
+                    {{post.date | date_to_string}}
                     {{ post.excerpt }}
                 </li>
                 {% endfor %}
