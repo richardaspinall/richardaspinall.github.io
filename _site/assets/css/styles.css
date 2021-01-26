@@ -42,6 +42,9 @@ article { background-color: #eaeff2; position: relative; width: 500px; height: 2
 /* Socials  */
 #socials { position: static; border: solid; text-align: center; width: auto; height: auto; }
 
+/* Blog */
+#blog ul li { list-style-type: none; }
+
 /*  Header  */
 header { display: grid; justify-items: center; }
 
@@ -78,6 +81,9 @@ Media queries
 
 @media (max-width: 500px) { article { padding-left: 10px; width: 450px; } .project-links { padding: 0 10px 10px; } #home-title div:nth-child(2) { padding-left: 10px; } }
 
-@media (max-width: 400px) { article { width: 360px; } }
+@media (max-width: 400px) { article { width: 100%; } h1 { font-size: 3em; } h2 { font-size: 2em; } h3 { font-size: 1.5em; } #home-title div:nth-child(2) img { width: 100px; margin-top: 35px; } }
+
+/* smartphones, touchscreens */
+@media (hover: none) and (pointer: coarse) { #home-title div h1:nth-child(1) { letter-spacing: 0.05em; } }
 
 /*# sourceMappingURL=styles.css.map */

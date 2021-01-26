@@ -74,6 +74,16 @@ article {
   height: auto;
 }
 
+/*
+* Blog
+*/
+
+#blog {
+  ul li {
+    list-style-type: none;
+  }
+}
+
 /* 
   * Header 
   */
@@ -198,6 +208,32 @@ Media queries
 
 @media (max-width: 400px) {
   article {
-    width: 360px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  #home-title div:nth-child(2) {
+    img {
+      width: 100px;
+      margin-top: 35px;
+    }
+  }
+}
+
+/* smartphones, touchscreens */
+@media (hover: none) and (pointer: coarse) {
+  #home-title div h1:nth-child(1) {
+    letter-spacing: 0.05em;
   }
 }
