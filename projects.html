@@ -1,14 +1,19 @@
 ---
 layout: default
 title: Projects
+custom_css: projects-custom
 ---
 
 <section>
-    <h1>projects</h1>
-    <section id="projects">
+    <div class="section-header">
+        <a href="/projects.html">
+            <h1>projects</h1>
+        </a>
+    </div>
+    <div class="section-body">
         {% assign sorted_pages = site.data.project-data | sort:"order" | reverse %}
         {% for project in sorted_pages %}
-        {% include projects.html %}
+        {% include project.html %}
         {% endfor %}
-    </section>
+    </div>
 </section>

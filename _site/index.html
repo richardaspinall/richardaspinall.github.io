@@ -5,10 +5,12 @@
     <meta charset="utf-8">
     <title>Home</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    
     <script src="https://kit.fontawesome.com/62f64a0d7b.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="/assets/images/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 
 <div class="cloud" id="cloud1"></div>
 <div class="cloud" id="cloud2"></div>
@@ -27,8 +29,9 @@
     <a href="/blog.html" >blog</a>
     
 </nav>
-    <header>
     <section>
+    <div class="section-body">
+
         <div id="home-title">
             <div>
                 <h1>richard</h1>
@@ -38,13 +41,26 @@
                 <img src="assets/images/me.jpg" alt="Responsive image">
             </div>
         </div>
-    </section>
-</header>
+    </div>
+</section>
 
 <section>
+    <div class="section-header">
+        <a href="/blogs.html">
+            <h1>about</h1>
+        </a>
+    </div>
+    <div class="section-body">
+        <article>
+        </article>
+    </div>
+</section>
 
-    <article>
-        <div id="socials">
+
+<section>
+    <div class="section-body">
+
+        <article id="socials">
             <div>
                 <a href="assets/images/cv.pdf" target="_blank">
                     <h2><i class="fas fa-file"> </i> cv</i>
@@ -65,34 +81,42 @@
                     </h2>
                 </a>
             </div>
-        </div>
-    </article>
+        </article>
+    </div>
 
 </section>
 
 <section>
+    <div class="section-header">
+        <a href="/blogs.html">
+            <h1>blogs</h1>
+        </a>
+    </div>
+    <div class="section-body">
+        <article id="blog">
 
-    <article id="blog">
-        <ul>
-            
-            <li>
-                <h2><a href="/2021/01/21/my-first-post.html">My First Post</a></h2>
-                <p>Hello world! This is my first blog and my first blog post.</p>
+            <ul>
+                
+                <li>
+                    <h2><a href="/2021/01/21/my-first-post.html">My First Post</a></h2>
+                    <p>Hello world! This is my first blog and my first blog post.</p>
 
-            </li>
-            
-        </ul>
-    </article>
+                </li>
+                
+            </ul>
+
+        </article>
+    </div>
 
 </section>
 
-
 <section>
-
-    <a href="/projects.html">
-        <h1>projects</h1>
-    </a>
-    <section id="projects">
+    <div class="section-header">
+        <a href="/projects.html">
+            <h1>projects</h1>
+        </a>
+    </div>
+    <div class="section-body">
         
         
         <article>
@@ -270,9 +294,7 @@
     </div>
 </article>
         
-    </section>
-
-
+    </div>
 
 </section>
 </body>

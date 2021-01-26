@@ -2,11 +2,9 @@
 layout: default
 title: Home
 ---
+<section>
+    <div class="section-body">
 
-
-
-<header>
-    <section>
         <div id="home-title">
             <div>
                 <h1>richard</h1>
@@ -16,13 +14,26 @@ title: Home
                 <img src="assets/images/me.jpg" alt="Responsive image">
             </div>
         </div>
-    </section>
-</header>
+    </div>
+</section>
 
 <section>
+    <div class="section-header">
+        <a href="/blogs.html">
+            <h1>about</h1>
+        </a>
+    </div>
+    <div class="section-body">
+        <article>
+        </article>
+    </div>
+</section>
 
-    <article>
-        <div id="socials">
+
+<section>
+    <div class="section-body">
+
+        <article id="socials">
             <div>
                 <a href="assets/images/cv.pdf" target="_blank">
                     <h2><i class="fas fa-file"> </i> cv</i>
@@ -43,39 +54,45 @@ title: Home
                     </h2>
                 </a>
             </div>
-        </div>
-    </article>
+        </article>
+    </div>
 
 </section>
 
 <section>
+    <div class="section-header">
+        <a href="/blogs.html">
+            <h1>blogs</h1>
+        </a>
+    </div>
+    <div class="section-body">
+        <article id="blog">
 
-    <article id="blog">
-        <ul>
-            {% for post in site.posts %}
-            <li>
-                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                {{ post.excerpt }}
-            </li>
-            {% endfor %}
-        </ul>
-    </article>
+            <ul>
+                {% for post in site.posts %}
+                <li>
+                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    {{ post.excerpt }}
+                </li>
+                {% endfor %}
+            </ul>
+
+        </article>
+    </div>
 
 </section>
 
-
 <section>
-
-    <a href="/projects.html">
-        <h1>projects</h1>
-    </a>
-    <section id="projects">
+    <div class="section-header">
+        <a href="/projects.html">
+            <h1>projects</h1>
+        </a>
+    </div>
+    <div class="section-body">
         {% assign sorted_pages = site.data.project-data | sort:"order" | reverse %}
         {% for project in sorted_pages limit:3 %}
-        {% include projects.html %}
+        {% include project.html %}
         {% endfor %}
-    </section>
-
-
+    </div>
 
 </section>

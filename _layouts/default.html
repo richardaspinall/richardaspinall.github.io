@@ -5,10 +5,16 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    {% if page.custom_css %}
+    {% for stylesheet in page.custom_css %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ stylesheet }}.css">
+    {% endfor %}
+    {% endif %}
     <script src="https://kit.fontawesome.com/62f64a0d7b.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="/assets/images/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 
 <div class="cloud" id="cloud1"></div>
 <div class="cloud" id="cloud2"></div>

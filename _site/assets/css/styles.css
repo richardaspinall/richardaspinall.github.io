@@ -1,3 +1,22 @@
+/*  Projects   */
+.project-header { padding-bottom: 10px; }
+
+.project-content { display: grid; grid-template-columns: 50% auto; }
+
+.project-content div { vertical-align: top; flex-grow: 1; }
+
+.project-content .project-about { max-height: 200px; max-width: 100%; overflow: scroll; }
+
+.project-tags { height: 80px; padding-bottom: 10px; overflow: scroll; }
+
+.project-tags a { text-decoration: none; display: inline-block; background-color: #d1c4e9; padding: 5px; border-radius: 10px; margin-bottom: 3px; margin-right: 3px; }
+
+.course-tag { position: absolute; right: 0px; top: 35px; text-align: center; background-color: #9cd0d0; transform: rotate(30deg); }
+
+.project-links { position: absolute; bottom: 0px; left: 0px; padding-top: 10px; display: grid; grid-template-columns: auto; width: 100%; padding: 0 30px 10px; }
+
+.project-links a { text-decoration: none; margin: 3px; border: solid thin; font-size: 1.2em; border-radius: 5px; text-align: center; }
+
 /*
 Variables found in globals.scss
 $cloud-color;
@@ -7,8 +26,6 @@ $background-blue;
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body { background-color: #b0c4de; font-family: 'Lato', sans-serif; font-weight: 200; color: #000000; padding-left: 10%; padding-right: 10%; }
-
-@media (max-width: 800px) { body { padding-left: 0%; padding-right: 0%; } }
 
 h1 { font-weight: 300; font-size: 4em; }
 
@@ -20,7 +37,25 @@ h3 { font-weight: 500; }
 
 a { color: #000000; }
 
-article { margin: 6px; padding: 15px; }
+article { background-color: #eaeff2; position: relative; width: 500px; height: 250px; margin: 6px; padding: 30px; border: solid; border-width: 3px; border-radius: 20px; }
+
+.section-header { display: block; }
+
+.section-body { display: grid; justify-items: center; padding: 6px; }
+
+/* Socials  */
+#socials { position: static; border: solid; text-align: center; width: auto; height: auto; }
+
+/*  Header  */
+header { display: grid; justify-items: center; }
+
+#home-title div:nth-child(1) { display: inline-block; float: left; padding-top: 25px; padding-bottom: 25px; height: 200px; }
+
+#home-title div h1:nth-child(1) { letter-spacing: 0.021em; }
+
+#home-title div:nth-child(2) { display: inline-block; padding-left: 30px; }
+
+#home-title div:nth-child(2) img { border: solid; border-radius: 50%; width: 125px; margin-top: 45px; }
 
 .cloud { background: #eaeff2; position: absolute; z-index: -1; height: 50px; width: 130px; margin-top: 70px; box-shadow: 10px 10px rgba(0, 0, 0, 0.2); border-radius: 100px; }
 
@@ -38,45 +73,15 @@ article { margin: 6px; padding: 15px; }
 
 #cloud4 { top: -30px; right: 5%; }
 
-/* Nav section */
-section #socials { position: fixed; top: 12px; right: 12px; background-color: #eaeff2; border: solid; border-radius: 20px; padding: 30px; }
+/*
+Media queries
+*/
+@media (max-width: 800px) { body { padding-left: 0%; padding-right: 0%; } }
 
-section #socials div { padding-top: 5px; }
+@media (min-width: 900px) { #socials { position: fixed; top: 12px; right: 12px; z-index: 1; } }
 
-@media (max-width: 800px) { section { display: grid; justify-items: center; } section #socials { position: static; border: solid; text-align: center; } }
+@media (max-width: 500px) { article { padding-left: 10px; width: 450px; } .project-links { padding: 0 10px 10px; } #home-title div:nth-child(2) { padding-left: 10px; } }
 
-/*  Header Section ! */
-header { display: grid; justify-items: center; }
-
-#home-title div:nth-child(1) { display: inline-block; float: left; padding-top: 25px; padding-bottom: 25px; height: 200px; }
-
-#home-title div h1:nth-child(1) { letter-spacing: 0.021em; }
-
-#home-title div:nth-child(2) { display: inline-block; padding-left: 30px; }
-
-#home-title div:nth-child(2) img { border: solid; border-radius: 50%; width: 125px; margin-top: 45px; }
-
-/*  Projects Section  */
-#projects { display: grid; justify-items: center; padding: 6px; }
-
-#projects article { background-color: #eaeff2; position: relative; width: 500px; height: 250px; margin: 6px; padding: 30px; padding-bottom: 100px; border: solid; border-width: 3px; border-radius: 20px; }
-
-.project-header { padding-bottom: 10px; }
-
-.project-content { display: grid; grid-template-columns: 50% auto; }
-
-.project-content div { vertical-align: top; flex-grow: 1; }
-
-.project-content .project-about { max-height: 200px; max-width: 100%; overflow: scroll; }
-
-.project-tags { height: 80px; padding-bottom: 10px; overflow: scroll; }
-
-.project-tags a { text-decoration: none; display: inline-block; background-color: #d1c4e9; padding: 5px; border-radius: 5px; margin-bottom: 3px; margin-right: 3px; }
-
-.course-tag { position: absolute; right: 0px; top: 35px; text-align: center; background-color: #9cd0d0; transform: rotate(30deg); }
-
-.project-links { position: absolute; bottom: 0px; left: 0px; padding-top: 10px; display: grid; grid-template-columns: auto; width: 100%; padding: 0 30px 10px; }
-
-.project-links a { text-decoration: none; margin: 3px; border: solid thin; font-size: 1.2em; border-radius: 5px; text-align: center; }
+@media (max-width: 400px) { article { width: 360px; } }
 
 /*# sourceMappingURL=styles.css.map */
