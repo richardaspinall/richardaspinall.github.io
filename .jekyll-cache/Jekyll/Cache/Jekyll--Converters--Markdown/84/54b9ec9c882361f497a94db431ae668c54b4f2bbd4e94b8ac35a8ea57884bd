@@ -1,9 +1,4 @@
----
-layout: default
-title: About
----
-
-<section>
+I"<section>
     <div class="section-header">
         <a href="/about.html">
             <h2>about</h2>
@@ -15,3 +10,4 @@ title: About
         </article>
     </div>
 </section>
+:ET
