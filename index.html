@@ -20,7 +20,7 @@ title: Home
 <section>
     <div class="section-header">
         <a href="/blogs.html">
-            <h1>about</h1>
+            <h2>about</h2>
         </a>
     </div>
     <div class="section-body">
@@ -36,22 +36,22 @@ title: Home
         <article id="socials">
             <div>
                 <a href="assets/images/cv.pdf" target="_blank">
-                    <h2><i class="fas fa-file"> </i> cv</i>
-                    </h2>
+                    <h3><i class="fas fa-file"> </i> cv</i>
+                    </h3>
                 </a>
             </div>
             <div>
                 <a href="https://www.linkedin.com/in/richardaspinall/" rel="noopener noreferrer" target="_blank">
-                    <h2><i class="fab fa-linkedin-in"></i> linkedin </i>
-                    </h2>
+                    <h3><i class="fab fa-linkedin-in"></i> linkedin </i>
+                    </h3>
                 </a>
             </div>
 
             <div>
                 <a href="https://github.com/richardaspinall/" rel="noopener noreferrer" target="_blank">
-                    <h2><i class="fab fa-github"></i> github </i>
+                    <h3><i class="fab fa-github"></i> github </i>
                         </i>
-                    </h2>
+                    </h3>
                 </a>
             </div>
         </article>
@@ -62,7 +62,7 @@ title: Home
 <section>
     <div class="section-header">
         <a href="/blogs.html">
-            <h1>blogs</h1>
+            <h2>blogs</h2>
         </a>
     </div>
     <div class="section-body">
@@ -71,7 +71,7 @@ title: Home
             <ul>
                 {% for post in site.posts %}
                 <li>
-                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                     {{ post.excerpt }}
                 </li>
                 {% endfor %}
@@ -85,7 +85,7 @@ title: Home
 <section>
     <div class="section-header">
         <a href="/projects.html">
-            <h1>projects</h1>
+            <h2>projects</h2>
         </a>
     </div>
     <div class="section-body">

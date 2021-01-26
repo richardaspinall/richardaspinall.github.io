@@ -1,7 +1,7 @@
 <article>
     <div class="project-header">
         <a href="{{ project.githubUrl }}" target="_blank" rel="noopener noreferrer">
-            <h2>{{ project.name }}</h2>
+            <h3>{{ project.name }}</h3>
         </a>
     </div>
     <div class="project-content">
@@ -24,11 +24,11 @@
         </div>
         <div class="project-links">
             <a href="{{ project.readme }}" target="_blank" rel="noopener noreferrer" class="project-links-code">
-                <h3>readme</h3>
+                <h4>readme</h4>
             </a>
             {% if project.homepage %}
             <a href="{{ project.homepage }}" target="_blank" class="project-links-demo">
-                <h3>demo</h3>
+                <h4>demo</h4>
             </a>
             {% endif %}
         </div>

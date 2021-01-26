@@ -23,11 +23,16 @@ a h1 {
 }
 
 h2 {
+  font-weight: 300;
+  font-size: 3em;
+}
+
+h3 {
   font-weight: inherit;
   font-size: 2em;
 }
 
-h3 {
+h4 {
   font-weight: 500;
 }
 
@@ -162,8 +167,8 @@ Media queries
 */
 @media (max-width: 800px) {
   body {
-    padding-left: 0%;
-    padding-right: 0%;
+    padding-left: 3%;
+    padding-right: 3%;
   }
 }
 
