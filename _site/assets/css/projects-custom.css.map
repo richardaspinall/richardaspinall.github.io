@@ -5,8 +5,8 @@
 		"projects-custom.scss"
 	],
 	"sourcesContent": [
-		"#cloud5 {\n  top: 300px;\n  left: 20%;\n}\n\n#cloud6 {\n  top: 200px;\n  left: 30%;\n}\n\n.section-body {\n  grid-template-columns: auto auto;\n}\n"
+		"#cloud5 {\n  top: 300px;\n  left: 20%;\n}\n\n#cloud6 {\n  top: 200px;\n  left: 30%;\n}\n\n.section-body {\n  grid-template-columns: auto auto;\n}\n\n@media (max-width: 1200px) {\n  .section-body {\n    grid-template-columns: auto;\n  }\n}\n"
 	],
 	"names": [],
-	"mappings": "AAAA,AAAA,OAAO,CAAC,EACN,GAAG,EAAE,KAAK,EACV,IAAI,EAAE,GAAG,GACV;;AAED,AAAA,OAAO,CAAC,EACN,GAAG,EAAE,KAAK,EACV,IAAI,EAAE,GAAG,GACV;;AAED,AAAA,aAAa,CAAC,EACZ,qBAAqB,EAAE,SAAS,GACjC"
+	"mappings": "AAAA,AAAA,OAAO,CAAC,EACN,GAAG,EAAE,KAAK,EACV,IAAI,EAAE,GAAG,GACV;;AAED,AAAA,OAAO,CAAC,EACN,GAAG,EAAE,KAAK,EACV,IAAI,EAAE,GAAG,GACV;;AAED,AAAA,aAAa,CAAC,EACZ,qBAAqB,EAAE,SAAS,GACjC;;AAED,MAAM,oBACJ,GAAA,AAAA,aAAa,CAAC,EACZ,qBAAqB,EAAE,IAAI,GAC5B,EAAA"
 }

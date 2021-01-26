@@ -4,4 +4,6 @@
 
 .section-body { grid-template-columns: auto auto; }
 
+@media (max-width: 1200px) { .section-body { grid-template-columns: auto; } }
+
 /*# sourceMappingURL=projects-custom.css.map */

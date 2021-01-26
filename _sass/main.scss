@@ -9,6 +9,9 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 200;
   color: $font-dark;
+}
+#sky {
+  overflow-x: hidden;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -117,7 +120,9 @@ header {
 }
 
 // Clouds
-
+#sky {
+  position: relative;
+}
 .cloud {
   background: $background-light-secondary;
   position: absolute;
@@ -176,7 +181,7 @@ header {
 Media queries
 */
 @media (max-width: 800px) {
-  body {
+  #sky {
     padding-left: 3%;
     padding-right: 3%;
   }
@@ -191,7 +196,7 @@ Media queries
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   article {
     padding-left: 10px;
     width: 450px;
