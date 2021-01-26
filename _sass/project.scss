@@ -38,11 +38,12 @@
 
 .course-tag {
   position: absolute;
-  right: 0px;
-  top: 35px;
+  right: 5px;
+  top: 0px;
+  padding: 5px;
+  border-radius: 10px;
   text-align: center;
   background-color: #9cd0d0;
-  transform: rotate(30deg);
 }
 
 .project-links {

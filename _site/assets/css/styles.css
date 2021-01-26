@@ -11,7 +11,7 @@
 
 .project-tags a { text-decoration: none; display: inline-block; background-color: #d1c4e9; padding: 5px; border-radius: 10px; margin-bottom: 3px; margin-right: 3px; }
 
-.course-tag { position: absolute; right: 0px; top: 35px; text-align: center; background-color: #9cd0d0; transform: rotate(30deg); }
+.course-tag { position: absolute; right: 5px; top: 0px; padding: 5px; border-radius: 10px; text-align: center; background-color: #9cd0d0; }
 
 .project-links { position: absolute; bottom: 0px; left: 0px; padding-top: 10px; display: grid; grid-template-columns: auto; width: 100%; padding: 0 30px 10px; }
 
