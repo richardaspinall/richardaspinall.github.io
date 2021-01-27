@@ -1,0 +1,17 @@
+---
+layout: default
+title: About
+---
+
+<section>
+    <div class="section-header">
+        <a href="/about.html">
+            <h2>about</h2>
+        </a>
+    </div>
+    <div class="section-body">
+        <article>
+            Howdy! I'm Richard and I should write something more here.
+        </article>
+    </div>
+</section>
