@@ -45,7 +45,7 @@ nav #socials { position: absolute; top: 0px; right: 0px; }
 
 #socials { text-align: center; }
 
-section { padding-left: 10%; padding-right: 10%; }
+section { padding-left: 10%; padding-right: 10%; margin-bottom: 70px; }
 
 .section-header { display: block; }
 
