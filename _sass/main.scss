@@ -54,6 +54,8 @@ nav {
 
 #socials,
 #nav-links {
+  margin-left: 10%;
+  margin-right: 10%;
   a {
     display: inline-block;
     padding: 10px;
@@ -65,22 +67,27 @@ nav {
 
 #socials {
   text-align: center;
+  margin-right: 10%;
 }
 
 section {
   padding-left: 10%;
   padding-right: 10%;
+  margin-bottom: 30px;
+
+  .section-header {
+    display: inline-block;
+  }
+
+  .section-body {
+    display: grid;
+    justify-items: center;
+    padding: 6px;
+  }
+}
+
+section:last-of-type {
   margin-bottom: 70px;
-}
-
-.section-header {
-  display: block;
-}
-
-.section-body {
-  display: grid;
-  justify-items: center;
-  padding: 6px;
 }
 
 article {
@@ -92,7 +99,6 @@ article {
   padding: 30px;
   border: solid;
   border-radius: 20px;
-  // background-color: red;
 }
 
 /*
@@ -123,28 +129,28 @@ article {
 header {
   display: grid;
   justify-items: center;
-}
 
-#home-title div:nth-child(1) {
-  display: inline-block;
-  float: left;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  height: 200px;
-}
-
-#home-title div h1:nth-child(1) {
-  letter-spacing: 0.021em;
-}
-
-#home-title div:nth-child(2) {
-  display: inline-block;
-  padding-left: 30px;
-  img {
-    border: solid;
-    border-radius: 50%;
-    width: 125px;
-    margin-top: 45px;
+  #home-title {
+    div:nth-child(1) {
+      display: inline-block;
+      float: left;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      height: 200px;
+    }
+    div:nth-child(2) {
+      display: inline-block;
+      padding-left: 30px;
+      img {
+        border: solid;
+        border-radius: 50%;
+        width: 125px;
+        margin-top: 45px;
+      }
+    }
+    div h1:nth-child(1) {
+      letter-spacing: 0.021em;
+    }
   }
 }
 
@@ -217,8 +223,6 @@ footer {
   display: grid;
   justify-items: center;
   background-color: $background-light-secondary;
-  margin-top: 30px;
-
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -229,9 +233,11 @@ footer {
 Media queries
 */
 @media (max-width: 800px) {
+  #socials,
+  #nav-links,
   section {
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 0%;
+    padding-right: 0%;
   }
 }
 
