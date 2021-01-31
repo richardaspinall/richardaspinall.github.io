@@ -239,6 +239,13 @@ Media queries
     padding-left: 0%;
     padding-right: 0%;
   }
+
+  #about-blurb {
+    article {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  }
 }
 
 @media (max-width: 550px) {
