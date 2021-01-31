@@ -1,0 +1,9 @@
+<div id="socials">
+    {% for item in site.data.socials %}
+
+    <a href="{{ item.link }}" rel="noopener noreferrer" target="_blank">
+        <i class="{{item.icon}}"></i>
+    </a>
+
+    {% endfor %}
+</div>

@@ -1,7 +1,21 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }}</p>
 
-{{ content }}
+<section>
+
+    <div class="section-body">
+        <article id="blog-post">
+            <h2>{{ page.title }}</h2>
+            <p>{{ page.date | date_to_string }}</p>
+
+            {{ content }}
+        </article>
+
+        <a href="/blog.html">
+            <h4>more posts</h4>
+        </a>
+    </div>
+
+
+</section>

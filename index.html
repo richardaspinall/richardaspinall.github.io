@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-<section>
+<header>
     <div class="section-body">
 
         <div id="home-title">
@@ -15,50 +15,35 @@ title: Home
             </div>
         </div>
     </div>
-</section>
+</header>
 
-<section>
-    <div class="section-header">
-        <a href="/about.html">
-            <h2>about</h2>
-        </a>
-    </div>
+<section id="about-blurb">
     <div class="section-body">
         <article>
-            Howdy! I'm Richard and I should write something more here.
+            <p> I am a Customer Experience
+                professional, passionate about
+                solving problems at the core.
+                I love technology and I enjoy
+                gaining a deep understanding of
+                systems. I have a keen interest in
+                programming and enjoy
+                developing and testing software
+                improvements and automations. In
+                my spare time, I like to expand my
+                knowledge by undertaking online
+                courses and personal projects.
+                I am an empathetic person and a
+                customer advocate. I am a strong
+                collaborator and have a
+                team-focussed mindset. I pride
+                myself on working hard.
+                I love working for Slack, a
+                company that is changing the
+                world. </p>
         </article>
     </div>
 </section>
 
-
-<section>
-    <div class="section-body">
-
-        <article id="socials">
-            <div>
-                <a href="assets/images/cv.pdf" target="_blank">
-                    <h3><i class="fas fa-file"> </i> cv</i>
-                    </h3>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.linkedin.com/in/richardaspinall/" rel="noopener noreferrer" target="_blank">
-                    <h3><i class="fab fa-linkedin-in"></i> linkedin </i>
-                    </h3>
-                </a>
-            </div>
-
-            <div>
-                <a href="https://github.com/richardaspinall/" rel="noopener noreferrer" target="_blank">
-                    <h3><i class="fab fa-github"></i> github </i>
-                        </i>
-                    </h3>
-                </a>
-            </div>
-        </article>
-    </div>
-
-</section>
 
 <section>
     <div class="section-header">
@@ -67,26 +52,16 @@ title: Home
         </a>
     </div>
     <div class="section-body">
-        <article id="blog">
-
-            <ul>
-                {% for post in site.posts limit:2 %}
-                <li>
-                    <h3><a href="{{ post.url }}">{{ post.title | downcase }}</a></h3>
-                    {{post.date | date_to_string}}
-                    {{ post.excerpt }}
-                    <hr>
-
-
-                </li>
-                {% endfor %}
-            </ul>
-
-        </article>
+        {% for post in site.posts limit:2 %}
+        {% include blog-excerpt.html %}
+        {% endfor %}
+        <a href="/blog.html">
+            <h4>more posts</h4>
+        </a>
     </div>
 
-</section>
 
+</section>
 <section>
     <div class="section-header">
         <a href="/projects.html">
@@ -98,6 +73,10 @@ title: Home
         {% for project in sorted_pages limit:3 %}
         {% include project.html %}
         {% endfor %}
+
+        <a href="/projects.html">
+            <h4>more projects</h4>
+        </a>
     </div>
 
 </section>
