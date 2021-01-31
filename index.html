@@ -17,48 +17,43 @@ title: Home
     </div>
 </section>
 
-<section>
-    <div class="section-header">
-        <a href="/about.html">
-            <h2>about</h2>
-        </a>
-    </div>
+<section id="about-blurb">
     <div class="section-body">
         <article>
-            Howdy! I'm Richard and I should write something more here.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+
+
+
+
+
         </article>
+
+
     </div>
 </section>
 
-
-<section>
-    <div class="section-body">
-
-        <article id="socials">
-            <div>
-                <a href="assets/images/cv.pdf" target="_blank">
-                    <h3><i class="fas fa-file"> </i> cv</i>
-                    </h3>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.linkedin.com/in/richardaspinall/" rel="noopener noreferrer" target="_blank">
-                    <h3><i class="fab fa-linkedin-in"></i> linkedin </i>
-                    </h3>
-                </a>
-            </div>
-
-            <div>
-                <a href="https://github.com/richardaspinall/" rel="noopener noreferrer" target="_blank">
-                    <h3><i class="fab fa-github"></i> github </i>
-                        </i>
-                    </h3>
-                </a>
-            </div>
-        </article>
-    </div>
-
-</section>
 
 <section>
     <div class="section-header">
@@ -67,26 +62,16 @@ title: Home
         </a>
     </div>
     <div class="section-body">
-        <article id="blog">
-
-            <ul>
-                {% for post in site.posts limit:2 %}
-                <li>
-                    <h3><a href="{{ post.url }}">{{ post.title | downcase }}</a></h3>
-                    {{post.date | date_to_string}}
-                    {{ post.excerpt }}
-                    <hr>
-
-
-                </li>
-                {% endfor %}
-            </ul>
-
-        </article>
+        {% for post in site.posts limit:2 %}
+        {% include blog-excerpt.html %}
+        {% endfor %}
+        <a href="/blog.html">
+            <h4>more posts</h4>
+        </a>
     </div>
 
-</section>
 
+</section>
 <section>
     <div class="section-header">
         <a href="/projects.html">
@@ -98,6 +83,10 @@ title: Home
         {% for project in sorted_pages limit:3 %}
         {% include project.html %}
         {% endfor %}
+
+        <a href="/projects.html">
+            <h4>more projects</h4>
+        </a>
     </div>
 
 </section>
