@@ -148,9 +148,17 @@ header {
         margin-top: 45px;
       }
     }
-    div h1:nth-child(1) {
-      letter-spacing: 0.021em;
-    }
+  }
+}
+
+#home-title div h1:nth-child(1) {
+  letter-spacing: 0.021em;
+}
+
+/* smartphones, touchscreens */
+@media (hover: none) and (pointer: coarse) {
+  #home-title div h1:nth-child(1) {
+    letter-spacing: 0.05em;
   }
 }
 
@@ -294,12 +302,5 @@ Media queries
       width: 100px;
       margin-top: 35px;
     }
-  }
-}
-
-/* smartphones, touchscreens */
-@media (hover: none) and (pointer: coarse) {
-  #home-title div h1:nth-child(1) {
-    letter-spacing: 0.05em;
   }
 }
