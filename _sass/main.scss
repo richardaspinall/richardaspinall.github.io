@@ -204,12 +204,12 @@ header {
 
 // Cloud specific positioning.
 #cloud1 {
-  top: 20px;
-  left: 10%;
+  top: 35px;
+  left: 5%;
 }
 
 #cloud2 {
-  top: 70px;
+  top: 80px;
   left: 80%;
 }
 
@@ -219,7 +219,7 @@ header {
 }
 
 #cloud4 {
-  top: 0px;
+  top: 30px;
   right: 25%;
 }
 
@@ -295,6 +295,14 @@ Media queries
 
   h3 {
     font-size: 1.5em;
+  }
+
+  header {
+    #home-title {
+      div:nth-child(1) {
+        padding-top: 50px;
+      }
+    }
   }
 
   #home-title div:nth-child(2) {
