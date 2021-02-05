@@ -23,11 +23,11 @@ body { background-color: #b0c4de; font-family: 'Lato', sans-serif; font-weight: 
 
 #wrapper { overflow-x: hidden; position: relative; min-height: 100vh; }
 
-h1 { font-weight: 300; font-size: 4em; }
+h1 { font-weight: lighter; font-size: 4em; }
 
 a h1 { display: inline-block; }
 
-h2 { font-weight: 300; font-size: 3em; }
+h2 { font-weight: lighter; font-size: 3em; }
 
 h3 { font-weight: inherit; font-size: 2em; }
 
