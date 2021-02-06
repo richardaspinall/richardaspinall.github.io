@@ -1,5 +1,9 @@
 <article id="blog-post">
+    <p>{{post.date | date_to_string}}</p>
+
     <h3><a href="{{ post.url }}">{{ post.title | downcase }}</a></h3>
-    {{post.date | date_to_string}}
+
+    <br>
+
     {{ post.excerpt }}
 </article>
