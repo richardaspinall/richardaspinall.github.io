@@ -2,11 +2,13 @@
 	"version": 3,
 	"file": "projects-custom.css",
 	"sources": [
-		"projects-custom.scss"
+		"projects-custom.scss",
+		"_sass/globals.scss"
 	],
 	"sourcesContent": [
-		"#cloud5 {\n  top: 300px;\n  left: 20%;\n}\n\n#cloud6 {\n  top: 200px;\n  left: 30%;\n}\n\n.section-body {\n  grid-template-columns: auto auto;\n}\n\n@media (max-width: 1200px) {\n  .section-body {\n    grid-template-columns: auto;\n  }\n}\n"
+		"@import 'globals';\n\n#cloud5 {\n  top: 300px;\n  left: 20%;\n}\n\n#cloud6 {\n  top: 200px;\n  left: 30%;\n}\n\n.section-body {\n  grid-template-columns: auto auto;\n}\n\n@media (max-width: 1200px) {\n  .section-body {\n    grid-template-columns: auto;\n  }\n}\n",
+		"$background-dark: #000000;\n$background-light: #b0c4de;\n$background-light-secondary: #eaeff2;\n\n$font-dark: #000000;\n$font-light: #eaeff2;\n"
 	],
 	"names": [],
-	"mappings": "AAAA,AAAA,OAAO,CAAC,EACN,GAAG,EAAE,KAAK,EACV,IAAI,EAAE,GAAG,GACV;;AAED,AAAA,OAAO,CAAC,EACN,GAAG,EAAE,KAAK,EACV,IAAI,EAAE,GAAG,GACV;;AAED,AAAA,aAAa,CAAC,EACZ,qBAAqB,EAAE,SAAS,GACjC;;AAED,MAAM,oBACJ,GAAA,AAAA,aAAa,CAAC,EACZ,qBAAqB,EAAE,IAAI,GAC5B,EAAA"
+	"mappings": "AAEA,AAAA,OAAO,CAAC,EACN,GAAG,EAAE,KAAK,EACV,IAAI,EAAE,GAAG,GACV;;AAED,AAAA,OAAO,CAAC,EACN,GAAG,EAAE,KAAK,EACV,IAAI,EAAE,GAAG,GACV;;AAED,AAAA,aAAa,CAAC,EACZ,qBAAqB,EAAE,SAAS,GACjC;;AAED,MAAM,oBACJ,GAAA,AAAA,aAAa,CAAC,EACZ,qBAAqB,EAAE,IAAI,GAC5B,EAAA"
 }
