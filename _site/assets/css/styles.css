@@ -39,6 +39,8 @@ nav { background-color: #eaeff2; }
 
 nav #socials { position: absolute; top: 0px; right: 0px; }
 
+nav .current { background-color: #b0c4de; }
+
 #socials, #nav-links { margin-left: 10%; margin-right: 10%; }
 
 #socials a, #nav-links a { display: inline-block; padding: 10px; }
@@ -58,18 +60,22 @@ section:last-of-type { margin-bottom: 70px; }
 article { background-color: #eaeff2; position: relative; width: 500px; height: 250px; margin: 6px; padding: 30px; border: solid; border-radius: 20px; }
 
 /* About  */
-#about-blurb { width: 100%; padding-left: 0%; padding-right: 0%; }
+#about-blurb { width: 100%; padding-left: 0%; padding-right: 0%; font-size: larger; }
 
 #about-blurb article { text-align: center; padding-left: 20%; padding-right: 20%; width: 100%; border: none; border-radius: 0px; height: auto; }
+
+#post-content br { display: none; }
+
+#post-content p br { display: inline; }
 
 /*  Header  */
 header { display: grid; justify-items: center; }
 
-header #home-title div:nth-child(1) { display: inline-block; float: left; padding-top: 25px; padding-bottom: 25px; height: 200px; }
+#home-title div:nth-child(1) { display: inline-block; float: left; padding-top: 25px; padding-bottom: 25px; height: 200px; }
 
-header #home-title div:nth-child(2) { display: inline-block; padding-left: 30px; }
+#home-title div:nth-child(2) { display: inline-block; padding-left: 30px; }
 
-header #home-title div:nth-child(2) img { border: solid; border-radius: 50%; width: 125px; margin-top: 45px; }
+#home-title div:nth-child(2) img { border: solid; border-radius: 50%; width: 125px; margin-top: 45px; }
 
 #home-title div h1:nth-child(1) { letter-spacing: 0.021em; }
 

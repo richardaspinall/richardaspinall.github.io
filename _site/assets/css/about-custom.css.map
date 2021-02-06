@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "about-custom.css",
+	"sources": [
+		"about-custom.scss"
+	],
+	"sourcesContent": [
+		"article {\n  width: 100%;\n  height: 100%;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,OAAO,CAAC,EACN,KAAK,EAAE,IAAI,EACX,MAAM,EAAE,IAAI,GACb"
+}
