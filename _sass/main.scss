@@ -294,6 +294,8 @@ Media queries
   }
 
   nav {
+    display: flex;
+    flex-direction: column-reverse;
     #socials,
     #nav-links {
       margin-left: 0%;
