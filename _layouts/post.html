@@ -1,9 +1,13 @@
 ---
 layout: default
+custom_css: post-custom
 ---
 
-<section>
+{%- capture post_image -%}
+{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | remove: " -" | replace: " ", "-" | downcase }}.jpg
+{% endcapture %}
 
+<section>
     <div class="section-body">
         <article id="blog-post">
             <p>{{ page.date | date_to_string }}</p>
@@ -12,6 +16,11 @@ layout: default
             <br>
 
             {{ content }}
+
+            <div id="main-image">
+                <img src="/assets/blog-images/{{post_image}}" alt="Responsive image">
+            </div>
+
         </article>
 
         <a href="/blog.html">
