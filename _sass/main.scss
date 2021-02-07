@@ -175,8 +175,21 @@ header {
 
 // Blog post
 
-#blog-post {
+.blog-post {
   height: auto;
+  .blog-post-content {
+    display: grid;
+    grid-template-columns: auto auto;
+    img {
+      width: 100%;
+      margin-left: 10px;
+      border: solid;
+      border-radius: 20px;
+    }
+  }
+  div {
+    padding-bottom: 10px;
+  }
 }
 
 // Clouds

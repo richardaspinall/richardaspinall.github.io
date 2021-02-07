@@ -82,7 +82,13 @@ header { display: grid; justify-items: center; }
 /* smartphones, touchscreens */
 @media (hover: none) and (pointer: coarse) { #home-title div h1:nth-child(1) { letter-spacing: 0.05em; } }
 
-#blog-post { height: auto; }
+.blog-post { height: auto; }
+
+.blog-post .blog-post-content { display: grid; grid-template-columns: auto auto; }
+
+.blog-post .blog-post-content img { width: 100%; margin-left: 10px; border: solid; border-radius: 20px; }
+
+.blog-post div { padding-bottom: 10px; }
 
 .cloud { background: #eaeff2; position: absolute; z-index: -1; height: 50px; width: 130px; margin-top: 100px; box-shadow: 10px 10px rgba(0, 0, 0, 0.2); border-radius: 100px; }
 
