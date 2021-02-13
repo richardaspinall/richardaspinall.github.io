@@ -7,9 +7,9 @@ custom_css: post-custom
 {{ page.date | date: "%Y-%m-%d" }}-{{ page.title | remove: " -" | replace: " ", "-" | downcase }}.JPG
 {% endcapture %}
 
-<section>
+<section class="blog-post">
     <div class="section-body">
-        <article id="blog-post">
+        <article>
             <p>{{ page.date | date_to_string }}</p>
 
             <h2>{{ page.title | downcase}}</h2>
@@ -17,7 +17,7 @@ custom_css: post-custom
 
             {{ content }}
 
-            <div id="main-image">
+            <div class="main-image">
                 <img src="/assets/blog-images/{{post_image}}" alt="Responsive image">
             </div>
 

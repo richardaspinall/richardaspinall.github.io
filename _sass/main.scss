@@ -143,11 +143,11 @@ header {
 }
 
 #home-title {
+  padding-top: 40px;
   div:nth-child(1) {
     display: inline-block;
     float: left;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    // padding-top: 25px;
     height: 200px;
   }
   div:nth-child(2) {
@@ -157,7 +157,7 @@ header {
       border: solid;
       border-radius: 50%;
       width: 125px;
-      margin-top: 45px;
+      margin-top: 15px;
     }
   }
 }
@@ -179,12 +179,10 @@ header {
   height: auto;
   .blog-post-content {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
     img {
       width: 100%;
       margin-left: 10px;
-      border: solid;
-      border-radius: 20px;
     }
   }
   div {
@@ -244,7 +242,7 @@ header {
 
 #cloud4 {
   top: 30px;
-  right: 25%;
+  right: 30%;
 }
 
 /*
@@ -311,31 +309,8 @@ Media queries
     width: 100%;
   }
 
-  h1 {
-    font-size: 3em;
-  }
-
-  h2 {
-    font-size: 2em;
-  }
-
   h3 {
     font-size: 1.5em;
-  }
-
-  header {
-    #home-title {
-      div:nth-child(1) {
-        padding-top: 50px;
-      }
-    }
-  }
-
-  #home-title div:nth-child(2) {
-    img {
-      width: 100px;
-      margin-top: 35px;
-    }
   }
 
   section {
