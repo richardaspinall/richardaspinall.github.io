@@ -1,5 +1,7 @@
-#blog-post { height: auto; width: auto; }
+.blog-post { width: 100%; font-size: larger; }
 
-#main-image img { width: 40%; border: solid; border-radius: 20px; }
+.blog-post article { width: 100%; border: none; border-radius: 0px; height: auto; }
+
+.main-image img { display: block; width: 300px; padding-top: 30px; margin-left: auto; margin-right: auto; }
 
 /*# sourceMappingURL=post-custom.css.map */

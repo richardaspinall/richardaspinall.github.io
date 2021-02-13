@@ -6,9 +6,9 @@
 		"_sass/globals.scss"
 	],
 	"sourcesContent": [
-		"@import 'globals';\n\nimg {\n  width: 50%;\n}\n",
+		"@import 'globals';\n",
 		"$background-dark: #000000;\n$background-light: #b0c4de;\n$background-light-secondary: #eaeff2;\n\n$font-dark: #000000;\n$font-light: #eaeff2;\n"
 	],
 	"names": [],
-	"mappings": "AAEA,AAAA,GAAG,CAAC,EACF,KAAK,EAAE,GAAG,GACX"
+	"mappings": ""
 }

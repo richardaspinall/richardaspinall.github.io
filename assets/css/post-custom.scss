@@ -3,12 +3,20 @@
 
 @import 'globals';
 
-#blog-post {
-  height: auto;
-  width: auto;
+.blog-post {
+  width: 100%;
+  font-size: larger;
+  article {
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    height: auto;
+  }
 }
-#main-image img {
-  width: 40%;
-  border: solid;
-  border-radius: 20px;
+.main-image img {
+  display: block;
+  width: 300px;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
