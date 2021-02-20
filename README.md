@@ -1,6 +1,7 @@
 # Portfolio website
 > Date started (Dec 2020)
-> richardaspinall.github.io
+
+richardaspinall.github.io
 
 ## Description
 A portfolio website to showcase projects and write blog posts
