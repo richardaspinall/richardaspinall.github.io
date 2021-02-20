@@ -3,23 +3,12 @@
 > richardaspinall.github.io
 
 ## Description
-A portfolio website to showcase projects, blog posting and to learn HTML CSS and JS
+A portfolio website to showcase projects and write blog posts
 
 ## Goals
-* To have a base for my any projects I complete.
-* To have a home page that I can 
-* To get better at writing via blog posts
-* To track progress of my learnings via projects and blog posts
-* To learn HTML CSS and JS through Jekyll
-
-## Results
-
-## Steps and the coding experience
-
-1. Created build with Jekyll and set up Github actions to automatically build the website
-2. Added content, structure and style
-
-## Usage
+* A base for my any projects I complete
+* A "profile" for myself that I can tell my story from
+* Track progress of learnings
 
 ## Requirements
 * Node (for projects to be pulled in prebuild)
