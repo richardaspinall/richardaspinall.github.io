@@ -127,11 +127,17 @@ article {
   }
 }
 
-#post-content br {
-  display: none;
+#post-content {
+  br {
+    display: none;
+  }
 }
-#post-content p br {
-  display: inline;
+#post-content {
+  p {
+    br {
+      display: inline;
+    }
+  }
 }
 /* 
   * Header 
@@ -163,14 +169,22 @@ header {
   }
 }
 
-#home-title div h1:nth-child(1) {
-  letter-spacing: 0.021em;
+#home-title {
+  div {
+    h1:nth-child(1) {
+      letter-spacing: 0.021em;
+    }
+  }
 }
 
 /* smartphones, touchscreens */
 @media (hover: none) and (pointer: coarse) {
-  #home-title div h1:nth-child(1) {
-    letter-spacing: 0.05em;
+  #home-title {
+    div {
+      h1:nth-child(1) {
+        letter-spacing: 0.05em;
+      }
+    }
   }
 }
 
