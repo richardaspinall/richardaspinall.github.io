@@ -98,7 +98,6 @@ article {
   background-color: $background-light-secondary;
   position: relative;
   width: 500px;
-  height: 250px;
   margin: 6px;
   padding: 30px;
   border: solid;
@@ -192,13 +191,11 @@ header {
 
 .blog-post {
   height: auto;
-  .blog-post-content {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    img {
-      width: 100%;
-      margin-left: 10px;
-    }
+  .blog-post-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
   }
   div {
     padding-bottom: 10px;
@@ -299,7 +296,7 @@ Media queries
   }
 
   .project-links {
-    padding: 0 10px 10px;
+    // padding: 0 10px 10px;
   }
 
   #home-title {
@@ -342,7 +339,6 @@ Media queries
   section {
     img {
       width: 100%;
-      margin-top: 35px;
     }
   }
 }

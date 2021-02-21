@@ -9,6 +9,7 @@ const projectsToAdd = [
   },
   {
     name: 'pingpong-css',
+    image: 'pingpong.png',
   },
   {
     name: 'slack-api-feature-breakdowns',
@@ -73,7 +74,9 @@ async function getProjectsFromGithub() {
       homepage: projectToAdd.homepage,
       topics: topics,
     };
-
+    if (projectsToAdd[index].image) {
+      project.image = projectsToAdd[index].image;
+    }
     projectsToWrite.push(project);
   }
 

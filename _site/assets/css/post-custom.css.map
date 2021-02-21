@@ -6,9 +6,9 @@
 		"_sass/globals.scss"
 	],
 	"sourcesContent": [
-		"@import 'globals';\n\n.blog-post {\n  width: 100%;\n  font-size: larger;\n  article {\n    width: 100%;\n    border: none;\n    border-radius: 0px;\n    height: auto;\n  }\n}\n.main-image {\n  img {\n    display: block;\n    width: 300px;\n    padding-top: 30px;\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n",
+		"@import 'globals';\n\n.blog-post {\n  width: 100%;\n  font-size: larger;\n  border: none;\n  border-radius: 0px;\n  height: auto;\n\n  .blog-post-content {\n    img {\n      width: 40%;\n    }\n  }\n}\n",
 		"$background-dark: #000000;\n$background-light: #b0c4de;\n$background-light-secondary: #eaeff2;\n\n$font-dark: #000000;\n$font-light: #eaeff2;\n"
 	],
 	"names": [],
-	"mappings": "AAEA,AAAA,UAAU,CAAC,EACT,KAAK,EAAE,IAAI,EACX,SAAS,EAAE,MAAM,GAOlB;;AATD,AAGE,UAHQ,CAGR,OAAO,CAAC,EACN,KAAK,EAAE,IAAI,EACX,MAAM,EAAE,IAAI,EACZ,aAAa,EAAE,GAAG,EAClB,MAAM,EAAE,IAAI,GACb;;AAEH,AACE,WADS,CACT,GAAG,CAAC,EACF,OAAO,EAAE,KAAK,EACd,KAAK,EAAE,KAAK,EACZ,WAAW,EAAE,IAAI,EACjB,WAAW,EAAE,IAAI,EACjB,YAAY,EAAE,IAAI,GACnB"
+	"mappings": "AAEA,AAAA,UAAU,CAAC,EACT,KAAK,EAAE,IAAI,EACX,SAAS,EAAE,MAAM,EACjB,MAAM,EAAE,IAAI,EACZ,aAAa,EAAE,GAAG,EAClB,MAAM,EAAE,IAAI,GAOb;;AAZD,AAQI,UARM,CAOR,kBAAkB,CAChB,GAAG,CAAC,EACF,KAAK,EAAE,GAAG,GACX"
 }

@@ -5,7 +5,8 @@
     "githubUrl": "https://github.com/richardaspinall/confusion-website",
     "readme": "https://github.com/richardaspinall/confusion-website/blob/main/README.md",
     "homepage": "https://pickled-crocus-balloon.glitch.me/",
-    "topics": { "names": ["html", "bootstrap", "sass", "css", "course-project"] }
+    "topics": { "names": ["html", "bootstrap", "sass", "css", "course-project"] },
+    "image": "confusion-website.png"
   },
   {
     "name": "pingpong-css",
@@ -13,7 +14,8 @@
     "githubUrl": "https://github.com/richardaspinall/pingpong-css",
     "readme": "https://github.com/richardaspinall/pingpong-css/blob/main/README.md",
     "homepage": "https://richardaspinall.github.io/pingpong-css/",
-    "topics": { "names": ["css", "scss", "learning-by-doing"] }
+    "topics": { "names": ["css", "scss", "learning-by-doing"] },
+    "image": "pingpong-css.png"
   },
   {
     "name": "slack-api-feature-breakdowns",

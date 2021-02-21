@@ -4,7 +4,16 @@
             <h3>{{ project.name }}</h3>
         </a>
     </div>
+    {% if project.image %}
+    <div class="project-img">
+        <img src="assets/project-images/{{ project.image }}" alt="Responsive image">
+    </div>
+    {% endif %}
+
     <div class="project-content">
+        <div class="project-about">
+            <p>{{ project.description | markdownify }} </p>
+        </div>
         <div class="project-tags">
             <ul>
                 {% for tag in project.topics.names %}
@@ -19,9 +28,7 @@
                 {% endfor %}
             </ul>
         </div>
-        <div class="project-about">
-            <p>{{ project.description | markdownify }} </p>
-        </div>
+
         <div class="project-links">
             <a href="{{ project.readme }}" target="_blank" rel="noopener noreferrer" class="project-links-code">
                 <h4>readme</h4>
@@ -32,5 +39,6 @@
             </a>
             {% endif %}
         </div>
+
     </div>
 </article>

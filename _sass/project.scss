@@ -22,7 +22,7 @@
 }
 
 .project-tags {
-  height: 80px;
+  max-height: 200px;
   padding-bottom: 10px;
   overflow: scroll;
   a {
@@ -52,15 +52,17 @@
   left: 0px;
   padding-top: 10px;
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: auto auto;
   width: 100%;
-  padding: 0 30px 10px;
   a {
-    text-decoration: none;
     margin: 3px;
-    border: solid thin;
     font-size: 1.2em;
     border-radius: 5px;
     text-align: center;
   }
+}
+
+.project-img img {
+  width: 100%;
+  padding-bottom: 10px;
 }
