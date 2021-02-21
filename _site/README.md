@@ -1,11 +1,19 @@
-> [Personal website](richardaspinall.github.io)
+# Portfolio website
+> Date started (Dec 2020)
 
-## Steps
+https://richardaspinall.github.io/
 
-1. Created build with Jekyll and set up Github actions to automatically build the website
-2. Added content, structure and style
+## Description
+A portfolio website to showcase projects and write blog posts
 
-## Usage
+## Goals
+* A base for my any projects I complete
+* A "profile" for myself that I can tell my story from
+* Track progress of learnings
+
+## Requirements
+* Node (for projects to be pulled in prebuild)
+* Ruby and Jekyll (gem) see: https://jekyllrb.com/docs/installation/
 
 ### Development
 
@@ -15,7 +23,7 @@
 
 ### Production
 
-- Push to main branch which will automatically build `_site` to gh-pages from the Github actions workflow
+- A push to main branch will automatically build `_site` to gh-pages via the Github actions workflow
 
 ## Resources
 
