@@ -2,4 +2,6 @@
 
 .blog-post .blog-post-content img { width: 40%; }
 
+@media (max-width: 400px) { .blog-post .blog-post-content img { width: 100%; } }
+
 /*# sourceMappingURL=post-custom.css.map */

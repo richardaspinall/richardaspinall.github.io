@@ -16,3 +16,13 @@
     }
   }
 }
+
+@media (max-width: 400px) {
+  .blog-post {
+    .blog-post-content {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
