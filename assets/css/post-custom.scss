@@ -9,6 +9,12 @@
   border: none;
   border-radius: 0px;
   height: auto;
+  .blog-post-content {
+    img {
+      margin-top: 10px;
+      margin-left: 0%;
+    }
+  }
 }
 
 @media (max-width: 400px) {
