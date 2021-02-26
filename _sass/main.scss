@@ -195,7 +195,8 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    max-width: 100%;
+    max-height: 300px;
   }
   div {
     padding-bottom: 10px;
@@ -342,7 +343,7 @@ Media queries
 
   section {
     img {
-      width: 100%;
+      max-width: 100%;
     }
   }
 }
