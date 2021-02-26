@@ -1,7 +1,0 @@
-.blog-post { width: 100%; font-size: larger; border: none; border-radius: 0px; height: auto; }
-
-.blog-post .blog-post-content img { width: 40%; }
-
-@media (max-width: 400px) { .blog-post .blog-post-content img { width: 100%; } }
-
-/*# sourceMappingURL=post-custom.css.map */
