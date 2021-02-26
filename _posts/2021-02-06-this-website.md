@@ -8,11 +8,9 @@ I love learning – it's my favourite thing to do. I feel like I have a solid fo
 
 <br>
 
-I made this site to further push myself to learn, it's really a home base and anchor for any projects so I can look back on progress. I do wish I had done this a long time ago as it would have helped me keep focus, but it's better late than never!
+I made this site to further push myself to learn, it's really a home base and anchor for any projects so I can look back on progress. It is to point to projects but more specifically the learnings I go on. I'm trying
+to make sure that I add the steps I take within a readme for each project, or / and a blog post.
 
 <br>
 
-This website is to showcase projects but more specifically the learnings I go on. I'm trying
-to make sure that I add the steps I take within a readme for each project, or / and a blog post here and
-there. I wish I had done this a long time ago as I have done so much stuff that I haven't tracked very
-well.
+I do wish I had done this a long time ago as it would have helped me keep focus, but it's better late than never!
