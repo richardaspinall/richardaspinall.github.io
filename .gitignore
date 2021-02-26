@@ -1,5 +1,5 @@
 # Generated output.
-_site/
+_site
 
 # Added when running `jekyll new PATH` or serving in incremental mode.
 .jekyll-metadata
