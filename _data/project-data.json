@@ -30,8 +30,8 @@
     "description": "Chrome extension for converting date times to a given new Time Zone",
     "githubUrl": "https://github.com/richardaspinall/chrome-timezone-converter",
     "readme": "https://github.com/richardaspinall/chrome-timezone-converter/blob/main/README.md",
-    "homepage": "",
+    "homepage": "https://richardaspinall.github.io/chrome-timezone-converter/",
     "topics": { "names": ["webpack", "chrome-extension", "js", "html", "sass"] },
-    "image": "chrome-timezone-converter.jpeg"
+    "image": "chrome-timezone-converter.png"
   }
 ]
