@@ -14,6 +14,9 @@ const projectsToAdd = [
   {
     name: 'slack-api-feature-breakdowns',
   },
+  {
+    name: 'chrome-timezone-converter',
+  },
 ];
 
 async function sendRequest(options) {
