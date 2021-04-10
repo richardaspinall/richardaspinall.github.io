@@ -15,7 +15,7 @@
     "readme": "https://github.com/richardaspinall/pingpong-css/blob/main/README.md",
     "homepage": "https://richardaspinall.github.io/pingpong-css/",
     "topics": { "names": ["css", "scss", "learning-by-doing"] },
-    "image": "pingpong-css.png"
+    "image": "pingpong.png"
   },
   {
     "name": "slack-api-feature-breakdowns",
@@ -24,5 +24,13 @@
     "readme": "https://github.com/richardaspinall/slack-api-feature-breakdowns/blob/main/README.md",
     "homepage": "",
     "topics": { "names": ["slack", "tester-apps"] }
+  },
+  {
+    "name": "chrome-timezone-converter",
+    "description": null,
+    "githubUrl": "https://github.com/richardaspinall/chrome-timezone-converter",
+    "readme": "https://github.com/richardaspinall/chrome-timezone-converter/blob/main/README.md",
+    "homepage": "",
+    "topics": { "names": ["webpack", "chrome-extension", "js", "html", "sass"] }
   }
 ]
