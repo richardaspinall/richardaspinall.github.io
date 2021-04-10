@@ -15,7 +15,7 @@
     "readme": "https://github.com/richardaspinall/pingpong-css/blob/main/README.md",
     "homepage": "https://richardaspinall.github.io/pingpong-css/",
     "topics": { "names": ["css", "scss", "learning-by-doing"] },
-    "image": "pingpong.png"
+    "image": "pingpong-css.png"
   },
   {
     "name": "slack-api-feature-breakdowns",
@@ -27,10 +27,11 @@
   },
   {
     "name": "chrome-timezone-converter",
-    "description": null,
+    "description": "Chrome extension for converting date times to a given new Time Zone",
     "githubUrl": "https://github.com/richardaspinall/chrome-timezone-converter",
     "readme": "https://github.com/richardaspinall/chrome-timezone-converter/blob/main/README.md",
     "homepage": "",
-    "topics": { "names": ["webpack", "chrome-extension", "js", "html", "sass"] }
+    "topics": { "names": ["webpack", "chrome-extension", "js", "html", "sass"] },
+    "image": "chrome-timezone-converter.jpeg"
   }
 ]

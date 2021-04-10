@@ -5,11 +5,10 @@
         </a>
     </div>
     {% if project.image %}
-    <div class="project-img">
+    <div class="img-wrapper">
         <img src="assets/project-images/{{ project.image }}" alt="Responsive image">
     </div>
     {% endif %}
-
     <div class="project-content">
         <div class="project-about">
             <p>{{ project.description | markdownify }} </p>

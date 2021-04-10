@@ -6,16 +6,18 @@ const user = 'richardaspinall';
 const projectsToAdd = [
   {
     name: 'confusion-website',
+    image: 'confusion-website.png',
   },
   {
     name: 'pingpong-css',
-    image: 'pingpong.png',
+    image: 'pingpong-css.png',
   },
   {
     name: 'slack-api-feature-breakdowns',
   },
   {
     name: 'chrome-timezone-converter',
+    image: 'chrome-timezone-converter.png',
   },
 ];
 
