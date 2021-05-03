@@ -2,7 +2,7 @@ const https = require('https');
 const fs = require('fs');
 
 const user = 'richardaspinall';
-
+const { GRAPHQL_GITHUB_TOKEN } = require('./env.json');
 const projectsToAdd = [
   {
     name: 'confusion-website',
@@ -23,6 +23,46 @@ const projectsToAdd = [
     name: 'vuejs-todolist',
   },
 ];
+
+async function sendGraphQLRequest(repoName) {
+  const gqlString = JSON.stringify({
+    query: `query {repository(owner: "${user}", name: "${repoName}") {openGraphImageUrl}}`,
+  });
+
+  const options = {
+    hostname: 'api.github.com',
+    path: '/graphql',
+    headers: {
+      'user-agent': 'node.js',
+      Authorization: `bearer ${GRAPHQL_GITHUB_TOKEN}`,
+      'Content-Length': Buffer.byteLength(gqlString),
+    },
+    method: 'POST',
+  };
+
+  let p = new Promise((resolve, reject) => {
+    const req = https.request(options, (res) => {
+      let responseBody = '';
+
+      res.on('data', (chunk) => {
+        responseBody += chunk;
+      });
+
+      res.on('end', () => {
+        const imageJSON = JSON.parse(responseBody);
+        resolve(imageJSON.data.repository.openGraphImageUrl);
+      });
+    });
+
+    req.on('error', (err) => {
+      reject(err);
+      console.log(err);
+    });
+
+    req.end(gqlString);
+  });
+  return await p;
+}
 
 async function sendRequest(options) {
   let p = new Promise((resolve, reject) => {
@@ -75,6 +115,8 @@ async function getProjectsFromGithub() {
     options.path = `/repos/${user}/${projectToAdd.name}/topics`;
     options.headers.Accept = 'application/vnd.github.mercy-preview+json';
     const topics = await sendRequest(options);
+    const image = await sendGraphQLRequest(projectToAdd.name);
+    console.log(image);
     const project = {
       name: projectToAdd.name,
       description: projectToAdd.description,
@@ -83,9 +125,14 @@ async function getProjectsFromGithub() {
       homepage: projectToAdd.homepage,
       topics: topics,
     };
-    if (projectsToAdd[index].image) {
-      project.image = projectsToAdd[index].image;
+    // if (projectsToAdd[index].image) {
+    //   project.image = projectsToAdd[index].image;
+    // }
+
+    if (image) {
+      project.image = image;
     }
+
     projectsToWrite.push(project);
   }
 

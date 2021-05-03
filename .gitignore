@@ -10,3 +10,6 @@ _site
 # Bundle's config.
 .bundle/
 vendor/
+
+# Github token
+env.json

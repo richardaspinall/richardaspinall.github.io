@@ -8,7 +8,7 @@
     "topics": {
       "names": ["html", "bootstrap", "sass", "css", "course-project"]
     },
-    "image": "confusion-website.png"
+    "image": "https://repository-images.githubusercontent.com/307291592/5cdfb480-ac5e-11eb-893c-489c3be20cd9"
   },
   {
     "name": "pingpong-css",
@@ -17,7 +17,7 @@
     "readme": "https://github.com/richardaspinall/pingpong-css/blob/main/README.md",
     "homepage": "https://richardaspinall.github.io/pingpong-css/",
     "topics": { "names": ["css", "scss", "learning-by-doing"] },
-    "image": "pingpong-css.png"
+    "image": "https://repository-images.githubusercontent.com/332413386/31f56080-ac5e-11eb-9ac9-b115d8076c7d"
   },
   {
     "name": "slack-api-feature-breakdowns",
@@ -25,7 +25,8 @@
     "githubUrl": "https://github.com/richardaspinall/slack-api-feature-breakdowns",
     "readme": "https://github.com/richardaspinall/slack-api-feature-breakdowns/blob/main/README.md",
     "homepage": "",
-    "topics": { "names": ["slack", "tester-apps"] }
+    "topics": { "names": ["slack", "tester-apps"] },
+    "image": "https://avatars.githubusercontent.com/u/15721687?s=400&v=4"
   },
   {
     "name": "chrome-timezone-converter",
@@ -36,7 +37,7 @@
     "topics": {
       "names": ["webpack", "chrome-extension", "js", "html", "sass"]
     },
-    "image": "chrome-timezone-converter.png"
+    "image": "https://repository-images.githubusercontent.com/356423669/beebea00-ac5d-11eb-9037-2f446500de58"
   },
   {
     "name": "vuejs-todolist",
@@ -47,6 +48,6 @@
     "topics": {
       "names": ["vue-cli", "vuejs", "travis-ci", "learning-by-doing"]
     },
-    "image": "https://repository-images.githubusercontent.com/361366246/85a48180-ac3f-11eb-9f9a-0757367956e3"
+    "image": "https://repository-images.githubusercontent.com/361366246/a62f0480-ac5c-11eb-9abe-774caf52118f"
   }
 ]
