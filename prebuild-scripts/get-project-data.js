@@ -19,6 +19,9 @@ const projectsToAdd = [
     name: 'chrome-timezone-converter',
     image: 'chrome-timezone-converter.png',
   },
+  {
+    name: 'vuejs-todolist',
+  },
 ];
 
 async function sendRequest(options) {
@@ -68,6 +71,7 @@ async function getProjectsFromGithub() {
 
   for (let index = 0; index < projectsToAdd.length; index++) {
     const projectToAdd = search(projectsToAdd[index].name, allRepos);
+    console.log(projectToAdd);
     options.path = `/repos/${user}/${projectToAdd.name}/topics`;
     options.headers.Accept = 'application/vnd.github.mercy-preview+json';
     const topics = await sendRequest(options);
@@ -85,10 +89,14 @@ async function getProjectsFromGithub() {
     projectsToWrite.push(project);
   }
 
-  fs.writeFile('../_data/project-data.json', JSON.stringify(projectsToWrite), function (err) {
-    if (err) throw err;
-    console.log('Replaced!');
-  });
+  fs.writeFile(
+    '../_data/project-data.json',
+    JSON.stringify(projectsToWrite),
+    function (err) {
+      if (err) throw err;
+      console.log('Replaced!');
+    }
+  );
 }
 
 getProjectsFromGithub();

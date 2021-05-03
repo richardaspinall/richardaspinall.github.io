@@ -5,7 +5,9 @@
     "githubUrl": "https://github.com/richardaspinall/confusion-website",
     "readme": "https://github.com/richardaspinall/confusion-website/blob/main/README.md",
     "homepage": "https://pickled-crocus-balloon.glitch.me/",
-    "topics": { "names": ["html", "bootstrap", "sass", "css", "course-project"] },
+    "topics": {
+      "names": ["html", "bootstrap", "sass", "css", "course-project"]
+    },
     "image": "confusion-website.png"
   },
   {
@@ -31,7 +33,20 @@
     "githubUrl": "https://github.com/richardaspinall/chrome-timezone-converter",
     "readme": "https://github.com/richardaspinall/chrome-timezone-converter/blob/main/README.md",
     "homepage": "https://richardaspinall.github.io/chrome-timezone-converter/",
-    "topics": { "names": ["webpack", "chrome-extension", "js", "html", "sass"] },
-    "image": "chrome-timezone-converter.jpeg"
+    "topics": {
+      "names": ["webpack", "chrome-extension", "js", "html", "sass"]
+    },
+    "image": "chrome-timezone-converter.png"
+  },
+  {
+    "name": "vuejs-todolist",
+    "description": "Learning project for Vue.js",
+    "githubUrl": "https://github.com/richardaspinall/vuejs-todolist",
+    "readme": "https://github.com/richardaspinall/vuejs-todolist/blob/main/README.md",
+    "homepage": "https://richardaspinall.github.io/vuejs-todolist/",
+    "topics": {
+      "names": ["vue-cli", "vuejs", "travis-ci", "learning-by-doing"]
+    },
+    "image": "https://repository-images.githubusercontent.com/361366246/85a48180-ac3f-11eb-9f9a-0757367956e3"
   }
 ]
