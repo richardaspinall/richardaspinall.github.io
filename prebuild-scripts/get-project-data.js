@@ -6,18 +6,15 @@ const { GRAPHQL_GITHUB_TOKEN } = require('./env.json');
 const projectsToAdd = [
   {
     name: 'confusion-website',
-    image: 'confusion-website.png',
   },
   {
-    name: 'pingpong-css',
-    image: 'pingpong-css.png',
+    name: 'css-pingpong',
   },
   {
     name: 'slack-api-feature-breakdowns',
   },
   {
     name: 'chrome-timezone-converter',
-    image: 'chrome-timezone-converter.png',
   },
   {
     name: 'vuejs-todolist',
