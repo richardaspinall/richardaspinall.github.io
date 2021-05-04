@@ -5,7 +5,7 @@ const user = 'richardaspinall';
 const { GRAPHQL_GITHUB_TOKEN } = require('./env.json');
 const projectsToAdd = [
   {
-    name: 'confusion-website',
+    name: 'coursera-fe-ui-frameworks',
   },
   {
     name: 'css-pingpong',
