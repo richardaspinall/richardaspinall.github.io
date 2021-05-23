@@ -11,12 +11,8 @@
     <div class="blog-post-content">
         <div>
             {{ post.excerpt | strip_html }}
-        </div>
-        <div class="img-wrapper">
-            <img src="/assets/blog-images/{{post_image}}" alt="Responsive image">
+            <a href="{{ post.url }}">...read on...</a>
         </div>
     </div>
-    <div>
-        <a href="{{ post.url }}"> read on..</a>
-    </div>
+
 </article>

@@ -19,33 +19,15 @@ title: Home
     </div>
 </section>
 
-
 <section>
     <div class="section-header">
-        <a href="/blog.html">
-            <h2>blog</h2>
-        </a>
-    </div>
-    <div class="section-body">
-        {% for post in site.posts limit:2 %}
-        {% include blog-excerpt.html %}
-        {% endfor %}
-        <a href="/blog.html">
-            <h4>more posts</h4>
-        </a>
-    </div>
-
-
-</section>
-<section>
-    <div class="section-header">
-        <a href="/projects.html">
-            <h2>projects</h2>
-        </a>
+        <!-- <a href="/projects.html"> -->
+        <h2>latest</h2>
+        <!-- </a> -->
     </div>
     <div class="section-body">
         {% assign sorted_pages = site.data.project-data | sort:"order" | reverse %}
-        {% for project in sorted_pages limit:3 %}
+        {% for project in sorted_pages limit:1 %}
         {% include project.html %}
         {% endfor %}
 
@@ -53,5 +35,20 @@ title: Home
             <h4>more projects</h4>
         </a>
     </div>
+</section>
 
+<section>
+    <!-- <div class="section-header">
+        <a href="/blog.html">
+            <h2>blog</h2>
+        </a>
+    </div> -->
+    <div class="section-body">
+        {% for post in site.posts limit:3 %}
+        {% include blog-excerpt.html %}
+        {% endfor %}
+        <a href="/blog.html">
+            <h4>more posts</h4>
+        </a>
+    </div>
 </section>

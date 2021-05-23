@@ -2,9 +2,13 @@
 layout: post
 ---
 
-I love learning – it's my favourite thing to do. I feel like I have a solid foundation in CS and IT but my work has been all over the place and I've been poor at documenting since I left school. Putting something like this on display means I hold my self accountable to continued learning.
+I love learning – it's my favourite thing to do.
 
 <!--read on -->
+
+<br>
+
+I feel like I have a solid foundation in CS and IT but my work has been all over the place and I've been poor at documenting since I left school. Putting something like this on display means I hold my self accountable to continued learning.
 
 <br>
 
