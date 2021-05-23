@@ -99,7 +99,7 @@ section {
   .section-body {
     display: grid;
     justify-items: center;
-    padding: 6px;
+    padding: 6px 0px 6px 0px;
   }
 }
 
@@ -113,8 +113,8 @@ article {
   width: 500px;
   margin: 6px;
   padding: 30px;
-  border: solid;
-  border-radius: 20px;
+  // border: solid;
+  // border-radius: 20px 20px 0px 0px;
 }
 
 /*
@@ -309,10 +309,6 @@ Media queries
 @media (max-width: 550px) {
   article {
     width: 450px;
-  }
-
-  .project-links {
-    // padding: 0 10px 10px;
   }
 
   #home-title {
