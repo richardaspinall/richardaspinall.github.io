@@ -124,6 +124,7 @@ async function getProjectsFromGithub() {
       readme: projectToAdd.html_url + '/blob/main/README.md',
       homepage: projectToAdd.homepage,
       topics: topics,
+      image: '',
     };
 
     if (image && !/avatars.githubusercontent.com/.test(image)) {

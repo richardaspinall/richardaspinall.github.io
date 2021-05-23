@@ -6,7 +6,9 @@
     </div>
     {% if project.image %}
     <div class="img-wrapper">
+        {% if project.image != "" %}
         <img src="{{ project.image }}" alt="Responsive image">
+        {% endif %}
     </div>
     {% endif %}
     <div class="project-content">
@@ -32,7 +34,7 @@
             <a href="{{ project.readme }}" target="_blank" rel="noopener noreferrer" class="project-links-code">
                 <h4>readme</h4>
             </a>
-            {% if project.homepage %}
+            {% if project.homepage != "" %}
             <a href="{{ project.homepage }}" target="_blank" class="project-links-demo">
                 <h4>demo</h4>
             </a>
