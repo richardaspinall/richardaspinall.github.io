@@ -113,8 +113,10 @@ async function getProjectsFromGithub() {
     const projectToAdd = search(projectsToAdd[index].name, allRepos);
     options.path = `/repos/${user}/${projectToAdd.name}/topics`;
     options.headers.Accept = 'application/vnd.github.mercy-preview+json';
+
     const topics = await sendRequest(options);
     const image = await sendGraphQLRequest(projectToAdd.name);
+
     const project = {
       name: projectToAdd.name,
       description: projectToAdd.description,
@@ -124,7 +126,7 @@ async function getProjectsFromGithub() {
       topics: topics,
     };
 
-    if (image) {
+    if (image && !/avatars.githubusercontent.com/.test(image)) {
       project.image = image;
     }
 
