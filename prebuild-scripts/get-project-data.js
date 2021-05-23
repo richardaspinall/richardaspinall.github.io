@@ -1,8 +1,11 @@
+require('dotenv').config();
+
 const https = require('https');
 const fs = require('fs');
 
 const user = 'richardaspinall';
-const { GRAPHQL_GITHUB_TOKEN } = require('./env.json');
+// From: https://docs.github.com/en/graphql/guides/forming-calls-with-graphql#authenticating-with-graphql
+const GRAPHQL_GITHUB_TOKEN = process.env.GRAPHQL_GITHUB_TOKEN;
 const projectsToAdd = [
   {
     name: 'coursera-fe-ui-frameworks',
@@ -108,12 +111,10 @@ async function getProjectsFromGithub() {
 
   for (let index = 0; index < projectsToAdd.length; index++) {
     const projectToAdd = search(projectsToAdd[index].name, allRepos);
-    console.log(projectToAdd);
     options.path = `/repos/${user}/${projectToAdd.name}/topics`;
     options.headers.Accept = 'application/vnd.github.mercy-preview+json';
     const topics = await sendRequest(options);
     const image = await sendGraphQLRequest(projectToAdd.name);
-    console.log(image);
     const project = {
       name: projectToAdd.name,
       description: projectToAdd.description,
@@ -122,9 +123,6 @@ async function getProjectsFromGithub() {
       homepage: projectToAdd.homepage,
       topics: topics,
     };
-    // if (projectsToAdd[index].image) {
-    //   project.image = projectsToAdd[index].image;
-    // }
 
     if (image) {
       project.image = image;
