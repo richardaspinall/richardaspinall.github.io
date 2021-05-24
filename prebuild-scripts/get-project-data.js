@@ -22,6 +22,9 @@ const projectsToAdd = [
   {
     name: 'vuejs-todolist',
   },
+  {
+    name: 'tinyurl-generator',
+  },
 ];
 
 async function sendGraphQLRequest(repoName) {
