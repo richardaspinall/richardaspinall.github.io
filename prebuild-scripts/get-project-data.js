@@ -14,7 +14,7 @@ const projectsToAdd = [
     name: 'css-pingpong',
   },
   {
-    name: 'slack-api-feature-breakdowns',
+    name: 'slack-all-breakdowns',
   },
   {
     name: 'chrome-timezone-converter',
