@@ -1,9 +1,4 @@
 <article>
-    <div class="project-header">
-        <a href="{{ project.githubUrl }}" target="_blank" rel="noopener noreferrer">
-            <h3>{{ project.name }}</h3>
-        </a>
-    </div>
     {% if project.image %}
     <div class="img-wrapper">
         {% if project.image != "" %}
@@ -11,6 +6,11 @@
         {% endif %}
     </div>
     {% endif %}
+    <div class="project-header">
+        <a href="{{ project.githubUrl }}" target="_blank" rel="noopener noreferrer">
+            <h3>{{ project.name }}</h3>
+        </a>
+    </div>
     <div class="project-content">
         <div class="project-about">
             <p>{{ project.description | markdownify }} </p>
@@ -40,6 +40,6 @@
             </a>
             {% endif %}
         </div>
-
     </div>
+
 </article>

@@ -2,6 +2,7 @@
 {{ post.date | date: "%Y-%m-%d" }}-{{ post.title | remove: " -" | replace: " ", "-" | downcase }}.JPG
 {% endcapture %}
 
+
 <article class="blog-post">
     <div>
         <p>{{post.date | date_to_string}}</p>
@@ -10,9 +11,11 @@
     </div>
     <div class="blog-post-content">
         <div>
-            {{ post.excerpt | strip_html }}
-            <a href="{{ post.url }}">...read on...</a>
+            <a href="{{ post.url }}">{{ post.excerpt | strip_html }}</a>
         </div>
+        <!-- <div class=" img-homepage">
+            <span class="helper"></span><img src="/assets/blog-images/{{post_image}}" alt="Responsive image">
+        </div> -->
     </div>
 
 </article>

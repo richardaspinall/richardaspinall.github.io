@@ -6,9 +6,11 @@
 
 body {
   background-color: $background-light;
+  // background-color: #1f1c1c;
   font-family: 'Lato', sans-serif;
   font-weight: 200;
   color: $font-dark;
+  // color: #c2c2c2;
   font-size: 16px;
 }
 #wrapper {
@@ -24,6 +26,8 @@ h1 {
 
 a {
   color: $font-dark;
+  // color: #faf1f1;
+  text-decoration: none;
 
   h1 {
     display: inline-block;
@@ -110,12 +114,21 @@ section:last-of-type {
 
 article {
   background-color: $background-light-secondary;
+  // background-color: #141414;
   position: relative;
   width: 500px;
-  margin: 6px;
+  margin: 15px;
   padding: 30px;
   // border: solid;
   // border-radius: 20px 20px 0px 0px;
+}
+
+article:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /*
@@ -213,10 +226,38 @@ header {
       -ms-word-break: break-all;
       word-break: break-word;
     }
+    .img-homepage {
+      position: absolute;
+      height: 100%;
+      max-width: 105px;
+
+      vertical-align: middle;
+      text-align: center;
+
+      top: 0px;
+      right: 0px;
+
+      .helper {
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+      }
+
+      img {
+        max-height: 100%;
+        max-width: 100%;
+        vertical-align: middle;
+      }
+    }
   }
-  div {
-    padding-bottom: 10px;
-  }
+}
+
+.blog-post:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 // Clouds
