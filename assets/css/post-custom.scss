@@ -4,15 +4,23 @@
 @import 'globals';
 
 .blog-post {
+  height: auto;
   width: 100%;
-  font-size: larger;
+  font-size: 1.5em;
   border: none;
   border-radius: 0px;
-  height: auto;
+
   .blog-post-content {
+    font-weight: 400;
+
     img {
       margin-top: 10px;
       margin-left: 0%;
+    }
+    a {
+      color: $font-link;
+      // color: #faf1f1;
+      text-decoration: underline;
     }
   }
 }

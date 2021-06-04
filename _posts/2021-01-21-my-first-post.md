@@ -2,16 +2,11 @@
 layout: post
 ---
 
-Hello world! This is my first blog and my first blog post.
+Hello world!
 
 <!--read on -->
 
 <br>
-
-I doubt many people will read this but that's not the point!
-
+This is my first blog and my first blog post and my first dog.
 <br>
-
-Say hi to Bruno Boris!!
-
-<br>
+Say hi to Bruno Boris!! 🐶
