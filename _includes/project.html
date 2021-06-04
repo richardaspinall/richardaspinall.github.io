@@ -1,16 +1,17 @@
-<article>
-    {% if project.image %}
-    <div class="img-wrapper">
-        {% if project.image != "" %}
-        <img src="{{ project.image }}" alt="Responsive image">
+<article class="project">
+    <a href="{{ project.githubUrl }}" target="_blank" rel="noopener noreferrer">
+        {% if project.image %}
+        <div class="img-wrapper">
+            {% if project.image != "" %}
+            <img src="{{ project.image }}" alt="Responsive image">
+            {% endif %}
+        </div>
         {% endif %}
-    </div>
-    {% endif %}
-    <div class="project-header">
-        <a href="{{ project.githubUrl }}" target="_blank" rel="noopener noreferrer">
+        <div class="project-header">
             <h3>{{ project.name }}</h3>
-        </a>
-    </div>
+        </div>
+    </a>
+
     <div class="project-content">
         <div class="project-about">
             <p>{{ project.description | markdownify }} </p>

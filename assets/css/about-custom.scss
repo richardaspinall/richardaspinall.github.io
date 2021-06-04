@@ -8,6 +8,14 @@ article {
   height: 100%;
 }
 
+article > p {
+  font-size: 1.5em;
+}
+
+.section-header {
+  margin-bottom: 10px;
+}
+
 #myvalues-wrapper {
   position: relative;
   height: 250px;
@@ -16,12 +24,13 @@ article {
   margin-right: auto;
 
   #myvalues-inner {
-    background-color: $background-light;
-    border-radius: 100%;
+    position: relative;
     height: 100%;
     width: 100%;
-    position: relative;
+    border-radius: 100%;
     margin: 0;
+    border: solid black;
+    background-color: $background-light;
 
     p {
       height: 100%;

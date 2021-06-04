@@ -99,6 +99,8 @@ section {
 
   .section-header {
     display: inline-block;
+    text-align: center;
+    width: 100%;
   }
 
   .section-body {
@@ -119,16 +121,6 @@ article {
   width: 500px;
   margin: 15px;
   padding: 30px;
-  // border: solid;
-  // border-radius: 20px 20px 0px 0px;
-}
-
-article:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
 }
 
 /*
@@ -219,6 +211,9 @@ header {
 .blog-post {
   height: auto;
   .blog-post-content {
+    .blog-excerpt {
+      width: 70%;
+    }
     p {
       overflow-wrap: break-word;
       word-wrap: break-word;
@@ -229,7 +224,7 @@ header {
     .img-homepage {
       position: absolute;
       height: 100%;
-      max-width: 105px;
+      max-width: 30%;
 
       vertical-align: middle;
       text-align: center;
@@ -253,11 +248,19 @@ header {
 }
 
 .blog-post:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  transform: scale(1.02);
+}
+
+.project:hover {
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 // Clouds
@@ -378,6 +381,22 @@ Media queries
       text-align: center;
       position: static;
     }
+  }
+
+  .blog-post:hover {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+
+  .article:hover {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
   }
 }
 

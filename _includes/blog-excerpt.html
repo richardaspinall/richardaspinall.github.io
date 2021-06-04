@@ -2,20 +2,21 @@
 {{ post.date | date: "%Y-%m-%d" }}-{{ post.title | remove: " -" | replace: " ", "-" | downcase }}.JPG
 {% endcapture %}
 
-
 <article class="blog-post">
-    <div>
-        <p>{{post.date | date_to_string}}</p>
+    <a style="display:block" href="{{ post.url }}">
 
-        <h3><a href="{{ post.url }}">{{ post.title | downcase }}</a></h3>
-    </div>
-    <div class="blog-post-content">
         <div>
-            <a href="{{ post.url }}">{{ post.excerpt | strip_html }}</a>
-        </div>
-        <!-- <div class=" img-homepage">
-            <span class="helper"></span><img src="/assets/blog-images/{{post_image}}" alt="Responsive image">
-        </div> -->
-    </div>
+            <p>{{post.date | date_to_string}}</p>
 
+            <h3>{{ post.title | downcase }}</h3>
+        </div>
+        <div class="blog-post-content">
+            <div class="blog-excerpt">
+                {{ post.excerpt | strip_html }}
+            </div>
+            <div class=" img-homepage">
+                <span class="helper"></span><img src="/assets/blog-images/{{post_image}}" alt="Responsive image">
+            </div>
+        </div>
+    </a>
 </article>

@@ -5,11 +5,6 @@ custom_css: projects-custom
 ---
 
 <section>
-    <div class="section-header">
-        <a href="/projects.html">
-            <h2>projects</h2>
-        </a>
-    </div>
     <div class="section-body">
         {% assign sorted_pages = site.data.project-data | sort:"order" | reverse %}
         {% for project in sorted_pages %}
