@@ -247,15 +247,7 @@ header {
   }
 }
 
-.blog-post:hover {
-  -webkit-transform: scale(1.02);
-  -moz-transform: scale(1.02);
-  -ms-transform: scale(1.02);
-  -o-transform: scale(1.02);
-  transform: scale(1.02);
-}
-
-.project:hover {
+.magnify-article:hover {
   -webkit-transform: scale(1.02);
   -moz-transform: scale(1.02);
   -ms-transform: scale(1.02);
@@ -383,15 +375,7 @@ Media queries
     }
   }
 
-  .blog-post:hover {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1);
-  }
-
-  .article:hover {
+  .magnify-article:hover {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
