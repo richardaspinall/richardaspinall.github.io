@@ -11,6 +11,9 @@ custom_css: post-custom
     <div class="section-body">
 
         <article class="blog-post">
+            <!-- <div class="img-wrapper">
+                <img src="/assets/blog-images/{{post_image}}" alt="Responsive image">
+            </div> -->
             <p>{{ page.date | date_to_string }}</p>
 
             <h3>{{ page.title | downcase}}</h3>
@@ -20,10 +23,6 @@ custom_css: post-custom
                 <div>
                     {{ content }}
                 </div>
-                <div class="img-wrapper">
-                    <img src="/assets/blog-images/{{post_image}}" alt="Responsive image">
-                </div>
-
             </div>
         </article>
         <a href="/blog.html">

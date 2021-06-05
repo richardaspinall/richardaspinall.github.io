@@ -14,13 +14,20 @@
     font-weight: 400;
 
     img {
-      margin-top: 10px;
-      margin-left: 0%;
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      max-width: 100%;
+      max-height: 260px;
     }
     a {
       color: $font-link;
       // color: #faf1f1;
       text-decoration: underline;
+    }
+
+    .floatright {
+      float: right;
     }
   }
 }

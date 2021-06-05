@@ -1,5 +1,5 @@
 {%- capture post_image -%}
-{{ post.date | date: "%Y-%m-%d" }}-{{ post.title | remove: " -" | replace: " ", "-" | downcase }}.JPG
+{{ post.date | date: "%Y-%m-%d" }}-{{ post.title | remove: " -" | replace: " ", "-" | downcase }}-crop.JPG
 {% endcapture %}
 
 <article class="blog-post magnify-article">
@@ -15,7 +15,7 @@
                 {{ post.excerpt | strip_html }}
             </div>
             <div class=" img-homepage">
-                <span class="helper"></span><img src="/assets/blog-images/{{post_image}}" alt="Responsive image">
+                <img src="/assets/blog-images/{{post_image}}" alt="Responsive image">
             </div>
         </div>
     </a>

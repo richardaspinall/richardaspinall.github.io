@@ -62,8 +62,6 @@ nav {
 }
 
 .img-wrapper {
-  // width: 100%;
-  // height: 260px;
   padding-bottom: 10px;
   img {
     display: block;
@@ -209,7 +207,7 @@ header {
 // Blog post
 
 .blog-post {
-  height: auto;
+  height: 137px;
   .blog-post-content {
     .blog-excerpt {
       width: 70%;
@@ -223,25 +221,12 @@ header {
     }
     .img-homepage {
       position: absolute;
-      height: 100%;
-      max-width: 30%;
-
-      vertical-align: middle;
-      text-align: center;
-
       top: 0px;
       right: 0px;
-
-      .helper {
-        display: inline-block;
-        height: 100%;
-        vertical-align: middle;
-      }
-
       img {
-        max-height: 100%;
-        max-width: 100%;
-        vertical-align: middle;
+        object-fit: cover;
+        width: 137px;
+        height: 137px;
       }
     }
   }
