@@ -8,9 +8,6 @@ const user = 'richardaspinall';
 const GRAPHQL_GITHUB_TOKEN = process.env.GRAPHQL_GITHUB_TOKEN;
 const projectsToAdd = [
   {
-    name: 'coursera-fe-ui-frameworks',
-  },
-  {
     name: 'css-pingpong',
   },
   {
