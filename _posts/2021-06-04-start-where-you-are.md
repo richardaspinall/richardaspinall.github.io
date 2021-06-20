@@ -30,7 +30,7 @@ This simple question that asks you to rate: **Work, Play, Health and Love** gave
 
 <br>
 
-![start where you are](/assets/blog-images/2021-06-04-start-where-you-are.JPG)
+![start where you are](/assets/blog-images/2021-06-04-start-where-you-are-full.JPG)
 
 **Work** and **Love** being full, which is a great thing! My work definitely occupies enough of my life, and this isn't just my day job, this is the work I'm doing right here to get me to the next thing in my career. Love entails relationships, friends and family and is definitely full!
 
