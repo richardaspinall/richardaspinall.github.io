@@ -1,0 +1,17 @@
+article { width: 100%; height: 100%; }
+
+article > p { font-size: 1.5em; }
+
+.section-header { margin-bottom: 10px; }
+
+#myvalues-wrapper { position: relative; height: 250px; width: 250px; margin-left: auto; margin-right: auto; }
+
+#myvalues-wrapper #myvalues-inner { position: relative; height: 100%; width: 100%; border-radius: 100%; margin: 0; border: solid black; background-color: #b0c4de; }
+
+#myvalues-wrapper #myvalues-inner p { height: 100%; text-align: center; }
+
+#myvalues-inner::before { content: ''; float: left; height: 100%; width: 50%; shape-outside: polygon(0px 0px, 123.6% 27px, 90.8% 14%, 55.4% 17.7%, 8.4% 30.2%, 0px 50%, 6% 65.6%, 23.4% 82.7%, 50% 94%, 98% 100%, 0px 100%); shape-margin: 7%; }
+
+#myvalues-inner p::before { content: ''; float: right; height: 100%; width: 50%; shape-outside: polygon(33.2% 15.2%, 100% 0%, 100% 100%, 2% 100%, 50% 94%, 76.6% 82.7%, 94% 65.6%, 100% 50%, 94% 32.6%, 76.6% 22.9%, 38% 20%); shape-margin: 7%; }
+
+/*# sourceMappingURL=about-custom.css.map */
