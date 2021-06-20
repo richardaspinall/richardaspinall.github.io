@@ -47,6 +47,6 @@ I was going to add the whole story to a blog post, but instead I've hidden it aw
 
 <br>
 
-![rocket](/assets/blog-images/2021-06-20-complete-a-project.JPG)
+![rocket](/assets/blog-images/2021-06-20-complete-a-project.jpg)
 
 Photo by <a href="https://unsplash.com/@spacex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">SpaceX</a> on <a href="https://unsplash.com/s/photos/rocker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
