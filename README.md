@@ -10,7 +10,7 @@ A portfolio website to showcase projects and write blog posts
 
 ## Goals
 
-- A base for my any projects I complete
+- A base for my any projects I create
 - A "profile" for myself that I can tell my story from
 - Track progress of learnings
 

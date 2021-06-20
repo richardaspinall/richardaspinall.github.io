@@ -22,7 +22,7 @@ How full are you?
 
 <!-- Image: ![image name](/assets/blog-images/img.JPG) -->
 
-I was recommended a book called <i>Designing Your Life</i> via my coach. This book takes you through "how to build a well-lived joyful life" making you do simple exercises that guide and help you come up and with a bit of a solution to what you should be doing now and into the future. The first one being: How full are you?
+I was recommended a book called <i>Designing Your Life</i>, this book takes you through "how to build a well-lived joyful life" and has simple exercises that guide and help you come up and with a solution to what you should be doing now and into the future. The first one being: How full are you?
 
 <br>
 
@@ -36,11 +36,16 @@ This simple question that asks you to rate: **Work, Play, Health and Love** gave
 
 <br>
 
-I'm in pretty good physical shape but my mental **Health** always needs to be looked after and that's why I rated it a 2.
+I rated **Health** a 2 currently because it's something I do need to keep on top of and I haven't been super good about it during the past year or so.
 
 <br>
 
-**Play** is the big one which working on will directly push up my health too. This is about things that bring you joy for the sake of doing, not for something or someone else but makes you purely feel joyful. For me the biggest thing that gives me joy is shooting hoops. I can shoot until I wear myself out and it gives me blissful joy.
+**Play** is the big one which working on will directly push up my health too. This is about things that bring you joy for the sake of doing, not for something or someone else but just to feel joyful. For me, the biggest thing that gives me joy is shooting hoops and getting in the groove of programming.
 
 <br>
+
+I highly recommend checking out this book if you feel like you need a compass check 😊
+
+<br>
+
 [https://www.booktopia.com.au/designing-your-life](https://www.booktopia.com.au/designing-your-life-bill-burnett/book/9781101875322.html?source=pla&zsrc=go-nz-allstock&gclid=CjwKCAiA1eKBBhBZEiwAX3gqlzbtWlJLQYH_i7rLYvV9RgecyOeL95v3m9_84KRMM5H5-Fuz52r96RoCDy4QAvD_BwE){:target="\_blank"}

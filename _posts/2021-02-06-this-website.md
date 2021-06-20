@@ -14,4 +14,6 @@ Putting myself on display means I'm held accountable to continued growth. I made
 
 I wish I had done this a long time ago, but it's better late than never!
 
+<br>
+
 ![Mock designs](/assets/blog-images/2021-02-06-this-website.JPG)
