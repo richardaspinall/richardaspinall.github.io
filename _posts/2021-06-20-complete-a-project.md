@@ -8,7 +8,7 @@ It's time to finish this thing
 
 <br>
 
-Over the past 2 years on and off I've been attacking a project ([repo](https://github.com/richardaspinall/slack-chrome-timezone-converter)) that started off very small . It was time to move on and say "it's complete". The root issue of why this was taking so long was that I hadn't scoped what complete looked like. Once I defined this, it was easy to say if it was complete or not.
+Over the past 2 years on and off I've been attacking a project ([repo](https://github.com/richardaspinall/slack-chrome-timezone-converter)) that started off very small. It was time to move on and say "it's complete". The root issue of why this was taking so long was that I hadn't scoped what complete looked like. Once I defined this, it was easy to say if it was complete or not.
 
 <br>
 
