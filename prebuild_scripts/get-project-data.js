@@ -11,7 +11,10 @@ const projectsToAdd = [
     name: 'css-pingpong',
   },
   {
-    name: 'slack-all-breakdowns',
+    name: 'slack-api-feature-breakdowns',
+  },
+  {
+    name: 'slack-api-unfurl-remote-file',
   },
   {
     name: 'chrome-timezone-converter',
@@ -134,14 +137,10 @@ async function getProjectsFromGithub() {
     projectsToWrite.push(project);
   }
 
-  fs.writeFile(
-    '../_data/project-data.json',
-    JSON.stringify(projectsToWrite),
-    function (err) {
-      if (err) throw err;
-      console.log('Replaced!');
-    }
-  );
+  fs.writeFile('../_data/project-data.json', JSON.stringify(projectsToWrite), function (err) {
+    if (err) throw err;
+    console.log('Replaced!');
+  });
 }
 
 getProjectsFromGithub();
