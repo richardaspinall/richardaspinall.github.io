@@ -1,56 +1,68 @@
 [
   {
     "name": "css-pingpong",
-    "description": "Play around project CSS positioning, shapes and animations.  ",
+    "description": "Play around project CSS positioning, shapes and animations. ",
+    "homepage": "https://richardaspinall.github.io/css-pingpong/",
     "githubUrl": "https://github.com/richardaspinall/css-pingpong",
     "readme": "https://github.com/richardaspinall/css-pingpong/blob/main/README.md",
-    "homepage": "https://richardaspinall.github.io/css-pingpong/",
-    "topics": { "names": ["css", "scss"] },
-    "image": "https://repository-images.githubusercontent.com/332413386/2bbcbe00-ad0a-11eb-9a08-62bdb3e3d23d"
+    "image": "https://repository-images.githubusercontent.com/332413386/2bbcbe00-ad0a-11eb-9a08-62bdb3e3d23d",
+    "topics": {
+      "names": ["css", "scss"]
+    }
   },
   {
     "name": "slack-api-feature-breakdowns",
     "description": "Tester apps for Slack API features",
+    "homepage": "",
     "githubUrl": "https://github.com/richardaspinall/slack-api-feature-breakdowns",
     "readme": "https://github.com/richardaspinall/slack-api-feature-breakdowns/blob/main/README.md",
-    "homepage": "",
-    "topics": { "names": ["slack", "tester-apps"] },
-    "image": "https://repository-images.githubusercontent.com/339313641/ba219b00-c567-11eb-9156-4e29bc4c5755"
+    "image": "https://repository-images.githubusercontent.com/339313641/ba219b00-c567-11eb-9156-4e29bc4c5755",
+    "topics": {
+      "names": ["slack", "tester-apps"]
+    }
   },
   {
     "name": "slack-api-unfurl-remote-file",
     "description": "Slack tester app that displays a file preview when a link is shared by authed user",
+    "homepage": "",
     "githubUrl": "https://github.com/richardaspinall/slack-api-unfurl-remote-file",
     "readme": "https://github.com/richardaspinall/slack-api-unfurl-remote-file/blob/main/README.md",
-    "homepage": "",
-    "topics": { "names": ["slack-app", "unfurl", "node-js"] },
-    "image": "https://repository-images.githubusercontent.com/384066524/648797e7-fd06-4e05-8c94-dec3187671c7"
+    "image": "https://repository-images.githubusercontent.com/384066524/648797e7-fd06-4e05-8c94-dec3187671c7",
+    "topics": {
+      "names": ["slack-app", "unfurl", "node-js"]
+    }
   },
   {
     "name": "chrome-timezone-converter",
     "description": "Chrome extension for converting date times to a given new Time Zone",
+    "homepage": "https://richardaspinall.github.io/chrome-timezone-converter/",
     "githubUrl": "https://github.com/richardaspinall/chrome-timezone-converter",
     "readme": "https://github.com/richardaspinall/chrome-timezone-converter/blob/main/README.md",
-    "homepage": "https://richardaspinall.github.io/chrome-timezone-converter/",
-    "topics": { "names": ["webpack", "chrome-extension", "js", "html", "sass", "typescript"] },
-    "image": "https://repository-images.githubusercontent.com/356423669/beebea00-ac5d-11eb-9037-2f446500de58"
+    "image": "https://repository-images.githubusercontent.com/356423669/beebea00-ac5d-11eb-9037-2f446500de58",
+    "topics": {
+      "names": ["webpack", "chrome-extension", "js", "html", "sass", "typescript"]
+    }
   },
   {
     "name": "vuejs-todolist",
     "description": "Learning project for Vue.js",
+    "homepage": "https://richardaspinall.github.io/vuejs-todolist/",
     "githubUrl": "https://github.com/richardaspinall/vuejs-todolist",
     "readme": "https://github.com/richardaspinall/vuejs-todolist/blob/main/README.md",
-    "homepage": "https://richardaspinall.github.io/vuejs-todolist/",
-    "topics": { "names": ["vue-cli", "vuejs", "travis-ci"] },
-    "image": "https://repository-images.githubusercontent.com/361366246/a62f0480-ac5c-11eb-9abe-774caf52118f"
+    "image": "https://repository-images.githubusercontent.com/361366246/a62f0480-ac5c-11eb-9abe-774caf52118f",
+    "topics": {
+      "names": ["vue-cli", "vuejs", "travis-ci"]
+    }
   },
   {
     "name": "tinyurl-generator",
     "description": "TinyURL generator via Slack modal",
+    "homepage": "",
     "githubUrl": "https://github.com/richardaspinall/tinyurl-generator",
     "readme": "https://github.com/richardaspinall/tinyurl-generator/blob/main/README.md",
-    "homepage": "",
-    "topics": { "names": ["mongodb", "js", "node-js"] },
-    "image": "https://repository-images.githubusercontent.com/370304645/36c4c300-be5e-11eb-8b8f-7e30ba84addf"
+    "image": "https://repository-images.githubusercontent.com/370304645/36c4c300-be5e-11eb-8b8f-7e30ba84addf",
+    "topics": {
+      "names": ["mongodb", "js", "node-js"]
+    }
   }
 ]
