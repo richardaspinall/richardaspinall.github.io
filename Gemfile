@@ -2,6 +2,7 @@
 
 source "https://rubygems.org"
 gem "jekyll"
+gem "webrick"
 
 git_source(:github) {|repo_name| "https://github.com/#{richardaspinall/richardaspinall.github.io}" }
 
