@@ -25,6 +25,7 @@ A portfolio website to showcase projects and write blog posts
 - `jekyll serve` to build to `_site` on save
 - `jekyll serve --drafts` to build with draft blog posts
 - `jekyll build` to build to `_site`
+- `source ./loadenv.sh && ./get-github-repos.sh` to create project data from `prebuild_scripts`
 
 ### Production
 

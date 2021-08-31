@@ -3,7 +3,7 @@
 
 user=richardaspinall
 # The repo names of the projects we want to add to our website
-repos_to_add=('css-pingpong' 'slack-api-feature-breakdowns' 'slack-api-unfurl-remote-file' 'chrome-timezone-converter' 'vuejs-todolist' 'tinyurl-generator')
+repos_to_add=('ping-pong' 'get-github-repos' 'slack-api-feature-breakdowns' 'remote-file-unfurler' 'timezone-converter' 'vue-todolist' 'tinyurl-generator')
 
 # Get all repos for given user
 all_repos=$(curl -s \
@@ -62,4 +62,4 @@ done
 projects+="]"
 
 # Output the projects into
-echo "$projects" > "project-data.json"
+echo "$projects" > "../_data/project-data.json"
