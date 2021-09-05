@@ -6,7 +6,7 @@ custom_css: projects-custom
 
 <section>
     <div class="section-body">
-        {% assign sorted_pages = site.data.project-data | sort:"order" | reverse %}
+        {% assign sorted_pages = site.data.project-data %}
         {% for project in sorted_pages %}
         {% include project.html %}
         {% endfor %}

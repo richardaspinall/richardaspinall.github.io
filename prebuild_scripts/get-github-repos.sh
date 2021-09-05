@@ -3,7 +3,7 @@
 
 user=richardaspinall
 # The repo names of the projects we want to add to our website
-repos_to_add=('ping-pong' 'get-github-repos' 'slack-api-feature-breakdowns' 'remote-file-unfurler' 'timezone-converter' 'vue-todolist' 'tinyurl-generator')
+repos_to_add=('get-github-repos' 'vue-todolist' 'tinyurl-generator' 'remote-file-unfurler' 'timezone-converter' 'slack-api-feature-breakdowns' 'ping-pong')
 
 # Get all repos for given user
 all_repos=$(curl -s \

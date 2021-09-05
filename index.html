@@ -19,7 +19,7 @@ title: Home
         <!-- </a> -->
     </div>
     <div class="section-body">
-        {% assign sorted_pages = site.data.project-data | sort:"order" | reverse %}
+        {% assign sorted_pages = site.data.project-data | sort:"order" %}
         {% for project in sorted_pages limit:1 %}
         {% include project.html %}
         {% endfor %}
