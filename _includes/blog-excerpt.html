@@ -5,15 +5,17 @@
 <article class="blog-post magnify-article">
     <a style="display:block" href="{{ post.url }}">
 
-        <div>
+        <div class="blog-post-title">
+
+            <h3>{{ post.title | downcase | truncate: 50 }}</h3>
+            <br>
             <p>{{post.date | date_to_string}}</p>
 
-            <h3>{{ post.title | downcase }}</h3>
         </div>
         <div class="blog-post-content">
-            <div class="blog-excerpt">
+            <!-- <div class="blog-excerpt">
                 {{ post.excerpt | strip_html }}
-            </div>
+            </div> -->
             <div class=" img-homepage">
                 <img src="/assets/blog-images/{{post_image}}" alt="Responsive image">
             </div>

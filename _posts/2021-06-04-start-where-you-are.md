@@ -2,26 +2,6 @@
 layout: post
 ---
 
-How full are you?
-
-<br>
-
-<!-- main image in /assets/blog-images/[same name as post].jpg -->
-
-<!-- Excerpt goes here -->
-
-<!--read on -->
-
-<!-- Paragraph -->
-
-<!-- <br> -->
-
-<!-- Paragraph -->
-
-<!-- Image: ![image name](link) -->
-
-<!-- Image: ![image name](/assets/blog-images/img.JPG) -->
-
 I was recommended a book called <i>Designing Your Life</i>, this book takes you through "how to build a well-lived joyful life" and has simple exercises that guide and help you come up and with a solution to what you should be doing now and into the future. The first one being: How full are you?
 
 <br>
@@ -30,7 +10,7 @@ This simple question that asks you to rate: **Work, Play, Health and Love** gave
 
 <br>
 
-![start where you are](/assets/blog-images/2021-06-04-start-where-you-are-full.JPG)
+![start where you are](/assets/blog-images/2021-06-04-start-where-you-are-full.jpg)
 
 **Work** and **Love** being full, which is a great thing! My work definitely occupies enough of my life, and this isn't just my day job, this is the work I'm doing right here to get me to the next thing in my career. Love entails relationships, friends and family and is definitely full!
 
