@@ -5,20 +5,18 @@
 <article class="blog-post magnify-article">
     <a style="display:block" href="{{ post.url }}">
 
-        <div class="blog-post-title">
+        <div class="blog-content">
 
-            <h3>{{ post.title | downcase | truncate: 50 }}</h3>
-            <br>
-            <p>{{post.date | date_to_string}}</p>
-
-        </div>
-        <div class="blog-post-content">
-            <!-- <div class="blog-excerpt">
-                {{ post.excerpt | strip_html }}
-            </div> -->
-            <div class=" img-homepage">
-                <img src="/assets/blog-images/{{post_image}}" alt="Responsive image">
+            <div>
+                <h3>{{ post.title | downcase | truncate: 50 }}</h3>
+                <p class="blog-excerpt"> {{ post.excerpt | strip_html | truncate: 80 }}</p>
             </div>
+            <img src="/assets/blog-images/{{post_image}}" alt="Responsive image">
+
         </div>
+
     </a>
+    <p class="blog-footer">{{post.date | date_to_string}}</p>
+
+
 </article>
