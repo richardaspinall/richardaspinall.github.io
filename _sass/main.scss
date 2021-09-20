@@ -118,6 +118,18 @@ article {
   position: relative;
   width: 500px;
   margin: 15px;
+  // padding: 20px;
+
+  a {
+    height: 100%;
+  }
+}
+
+.blog-link {
+  padding: 20px;
+}
+
+.project {
   padding: 20px;
 }
 
@@ -135,6 +147,8 @@ article {
     text-align: center;
     padding-left: 20%;
     padding-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-top: 40px;
     width: 100%;
     border: none;
@@ -238,6 +252,7 @@ header {
   .blog-footer {
     position: absolute;
     bottom: 5px;
+    left: 20px;
   }
 }
 
@@ -340,7 +355,7 @@ Media queries
 @media (max-width: 550px) {
   article {
     width: 450px;
-    padding-left: 10px;
+    // padding-left: 10px;
   }
 
   #home-title {
