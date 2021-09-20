@@ -3,6 +3,28 @@ layout: post
 no-image: true
 ---
 
-I had a very wholesome day yesterday which is
+Yesterday I felt like I had a very wholesome day which made me feel accomplished for once. 
 
-- Skateboarding, music, cooking, gaming, watching All Blacks, watching veep, coind, programming theory, reading, small amount of phone time
+<br>
+
+# A typical day recently included:**
+- A lot of screentime
+    - Work
+    - Programming
+    - YouTube holes
+    - General phone holes
+    - TV / Netflix etc
+- Reading text books (Programming)
+
+<br>
+    
+## My wholesome day:
+- Skateboarding
+- Music 
+- Cooking 
+- Gaming 
+- Watched All Blacks
+- Watched veep 
+- Programming theory 
+- Reading 
+- Small amount of phone time
