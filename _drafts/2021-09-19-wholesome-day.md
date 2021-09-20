@@ -7,7 +7,7 @@ Yesterday I felt like I had a very wholesome day which made me feel accomplished
 
 <br>
 
-# A typical day recently included:**
+## A typical day recently included:
 - A lot of screentime
     - Work
     - Programming

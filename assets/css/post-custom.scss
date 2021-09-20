@@ -7,7 +7,6 @@
 .blog-post {
   height: auto;
   width: 100%;
-  font-size: 1.5em;
   border: none;
   border-radius: 0px;
 
@@ -27,7 +26,6 @@
     }
     a {
       color: $font-link;
-      // color: #faf1f1;
       text-decoration: underline;
     }
 
@@ -37,16 +35,6 @@
     figure {
       pre {
         padding: 20px;
-      }
-    }
-  }
-}
-
-@media (max-width: 400px) {
-  .blog-post {
-    .blog-post-content {
-      img {
-        // width: 100%;
       }
     }
   }

@@ -20,8 +20,8 @@ body {
 }
 
 h1 {
-  font-weight: lighter;
-  font-size: 4em;
+  // font-weight: lighter;
+  font-size: 2em;
 }
 
 a {
@@ -35,17 +35,18 @@ a {
 }
 
 h2 {
-  font-weight: lighter;
-  font-size: 3em;
-}
-
-h3 {
-  font-weight: inherit;
+  // font-weight: lighter;
   font-size: 1.5em;
 }
 
+h3 {
+  // font-weight: inherit;
+  font-size: 1.3em;
+}
+
 h4 {
-  font-weight: 500;
+  // font-weight: 500;
+  font-size: 1em;
 }
 
 nav {
@@ -384,11 +385,11 @@ Media queries
   }
 
   h2 {
-    font-size: 1.5em;
+    // font-size: 1.5em;
   }
 
   h3 {
-    font-size: 1.2em;
+    // font-size: 1.2em;
   }
 
   .blog-post {
