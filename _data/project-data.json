@@ -1,101 +1,90 @@
-[{
-  "name": "get-github-repos",
-  "description": "Learning project for bash.",
-  "homepage": "",
-  "githubUrl": "https://github.com/richardaspinall/get-github-repos",
-  "readme": "https://github.com/richardaspinall/get-github-repos/blob/main/README.md",
-  "image": "",
-  "topics": {
-    "names": [
-      "bash",
-      "shell",
-      "jq",
-      "json"
-    ]
+[
+  {
+    "name": "cinema-room-rest-service",
+    "description": "REST service project from the Java Backend Developer track at JetBrains Academy",
+    "homepage": "",
+    "githubUrl": "https://github.com/richardaspinall/cinema-room-rest-service",
+    "readme": "https://github.com/richardaspinall/cinema-room-rest-service/blob/main/README.md",
+    "image": "",
+    "topics": {
+      "names": ["java", "gradle", "rest-api", "jetbrains-academy"]
+    }
+  },
+  {
+    "name": "get-github-repos",
+    "description": "Learning project for bash.",
+    "homepage": "",
+    "githubUrl": "https://github.com/richardaspinall/get-github-repos",
+    "readme": "https://github.com/richardaspinall/get-github-repos/blob/main/README.md",
+    "image": "",
+    "topics": {
+      "names": ["bash", "shell", "jq", "json"]
+    }
+  },
+  {
+    "name": "vue-todolist",
+    "description": "Learning project for Vue.js",
+    "homepage": "https://richardaspinall.github.io/vuejs-todolist/",
+    "githubUrl": "https://github.com/richardaspinall/vue-todolist",
+    "readme": "https://github.com/richardaspinall/vue-todolist/blob/main/README.md",
+    "image": "https://repository-images.githubusercontent.com/361366246/a62f0480-ac5c-11eb-9abe-774caf52118f",
+    "topics": {
+      "names": ["vue-cli", "vuejs", "travis-ci"]
+    }
+  },
+  {
+    "name": "tinyurl-generator",
+    "description": "TinyURL generator via a Modal in Slack",
+    "homepage": "",
+    "githubUrl": "https://github.com/richardaspinall/tinyurl-generator",
+    "readme": "https://github.com/richardaspinall/tinyurl-generator/blob/main/README.md",
+    "image": "https://repository-images.githubusercontent.com/370304645/36c4c300-be5e-11eb-8b8f-7e30ba84addf",
+    "topics": {
+      "names": ["mongodb", "node-js", "javascript", "slack-app"]
+    }
+  },
+  {
+    "name": "remote-file-unfurler",
+    "description": "Displays a file preview (hardcoded) when a link is shared by an authed user",
+    "homepage": "",
+    "githubUrl": "https://github.com/richardaspinall/remote-file-unfurler",
+    "readme": "https://github.com/richardaspinall/remote-file-unfurler/blob/main/README.md",
+    "image": "",
+    "topics": {
+      "names": ["slack-app", "unfurl", "node-js"]
+    }
+  },
+  {
+    "name": "timezone-converter",
+    "description": "Chrome extension for converting date times to a given new timezone",
+    "homepage": "https://richardaspinall.github.io/timezone-converter/",
+    "githubUrl": "https://github.com/richardaspinall/timezone-converter",
+    "readme": "https://github.com/richardaspinall/timezone-converter/blob/main/README.md",
+    "image": "https://repository-images.githubusercontent.com/356423669/beebea00-ac5d-11eb-9037-2f446500de58",
+    "topics": {
+      "names": ["webpack", "chrome-extension", "html", "sass", "typescript", "javascript"]
+    }
+  },
+  {
+    "name": "slack-api-feature-breakdowns",
+    "description": "Tester apps for Slack API features",
+    "homepage": "",
+    "githubUrl": "https://github.com/richardaspinall/slack-api-feature-breakdowns",
+    "readme": "https://github.com/richardaspinall/slack-api-feature-breakdowns/blob/main/README.md",
+    "image": "",
+    "topics": {
+      "names": ["slack", "tester-apps"]
+    }
+  },
+  {
+    "name": "ping-pong",
+    "description": "Play around project CSS positioning, shapes and animations. ",
+    "homepage": "https://richardaspinall.github.io/css-pingpong/",
+    "githubUrl": "https://github.com/richardaspinall/ping-pong",
+    "readme": "https://github.com/richardaspinall/ping-pong/blob/main/README.md",
+    "image": "https://repository-images.githubusercontent.com/332413386/2bbcbe00-ad0a-11eb-9a08-62bdb3e3d23d",
+    "topics": {
+      "names": ["css", "scss"]
+    }
   }
-},{
-  "name": "vue-todolist",
-  "description": "Learning project for Vue.js",
-  "homepage": "https://richardaspinall.github.io/vuejs-todolist/",
-  "githubUrl": "https://github.com/richardaspinall/vue-todolist",
-  "readme": "https://github.com/richardaspinall/vue-todolist/blob/main/README.md",
-  "image": "https://repository-images.githubusercontent.com/361366246/a62f0480-ac5c-11eb-9abe-774caf52118f",
-  "topics": {
-    "names": [
-      "vue-cli",
-      "vuejs",
-      "travis-ci"
-    ]
-  }
-},{
-  "name": "tinyurl-generator",
-  "description": "TinyURL generator via Slack modal",
-  "homepage": "",
-  "githubUrl": "https://github.com/richardaspinall/tinyurl-generator",
-  "readme": "https://github.com/richardaspinall/tinyurl-generator/blob/main/README.md",
-  "image": "https://repository-images.githubusercontent.com/370304645/36c4c300-be5e-11eb-8b8f-7e30ba84addf",
-  "topics": {
-    "names": [
-      "mongodb",
-      "js",
-      "node-js"
-    ]
-  }
-},{
-  "name": "remote-file-unfurler",
-  "description": "Displays a file preview (hardcoded) when a link is shared by an authed user",
-  "homepage": "",
-  "githubUrl": "https://github.com/richardaspinall/remote-file-unfurler",
-  "readme": "https://github.com/richardaspinall/remote-file-unfurler/blob/main/README.md",
-  "image": "",
-  "topics": {
-    "names": [
-      "slack-app",
-      "unfurl",
-      "node-js"
-    ]
-  }
-},{
-  "name": "timezone-converter",
-  "description": "Chrome extension for converting date times to a given new timezone",
-  "homepage": "https://richardaspinall.github.io/timezone-converter/",
-  "githubUrl": "https://github.com/richardaspinall/timezone-converter",
-  "readme": "https://github.com/richardaspinall/timezone-converter/blob/main/README.md",
-  "image": "https://repository-images.githubusercontent.com/356423669/beebea00-ac5d-11eb-9037-2f446500de58",
-  "topics": {
-    "names": [
-      "webpack",
-      "chrome-extension",
-      "js",
-      "html",
-      "sass",
-      "typescript"
-    ]
-  }
-},{
-  "name": "slack-api-feature-breakdowns",
-  "description": "Tester apps for Slack API features",
-  "homepage": "",
-  "githubUrl": "https://github.com/richardaspinall/slack-api-feature-breakdowns",
-  "readme": "https://github.com/richardaspinall/slack-api-feature-breakdowns/blob/main/README.md",
-  "image": "",
-  "topics": {
-    "names": [
-      "slack",
-      "tester-apps"
-    ]
-  }
-},{
-  "name": "ping-pong",
-  "description": "Play around project CSS positioning, shapes and animations. ",
-  "homepage": "https://richardaspinall.github.io/css-pingpong/",
-  "githubUrl": "https://github.com/richardaspinall/ping-pong",
-  "readme": "https://github.com/richardaspinall/ping-pong/blob/main/README.md",
-  "image": "https://repository-images.githubusercontent.com/332413386/2bbcbe00-ad0a-11eb-9a08-62bdb3e3d23d",
-  "topics": {
-    "names": [
-      "css",
-      "scss"
-    ]
-  }
-},]
+]

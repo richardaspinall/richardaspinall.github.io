@@ -5,6 +5,6 @@
 - name: projects
   link: /projects.html
 - name: blog
-  link: /blog.html
+  link: /blog/categories
 - name: learning
   link: /learning.html

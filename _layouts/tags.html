@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+{% include tags.html %}
+<section>
+
+
+
+    <div class="section-header">
+        <a href="/projects.html">
+            <h2>projects</h2>
+        </a>
+    </div>
+
+    <div class="section-body">
+        {% assign hasproject = false %}
+
+        {% assign sorted_pages = site.data.project-data %}
+        {% for project in sorted_pages %}
+
+        {% for tag in project.topics.names %}
+
+        {% if tag == page.tag-name %}
+
+        {% assign hasproject = true %}
+        {% include project.html %}
+
+        {% endif %}
+
+        {% endfor %}
+
+        {% endfor %}
+
+        {% if hasproject == false %}
+        <label>
+            <em>no projects found</em>
+        </label>
+        {% endif %}
+    </div>
+
+    <div class="section-header">
+        <a href="/blog/">
+            <h2>blog posts</h2>
+        </a>
+    </div>
+    <div class="section-body">
+        {% assign haspost = false %}
+
+        {% for post in site.posts %}
+
+        {% assign tags = post.tags | downcase %}
+
+        {% for tag in post.tags %}
+
+        {% if tag == page.tag-name %}
+
+        {% assign haspost = true %}
+        {% include blog-excerpt.html %}
+
+        {% endif %}
+
+        {% endfor %}
+        {% endfor %}
+
+
+        {% if haspost == false %}
+        <label>
+            <em>no blog posts found</em>
+        </label>
+        {% endif %}
+    </div>
+
+</section>

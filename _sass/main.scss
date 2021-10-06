@@ -253,6 +253,21 @@ header {
     position: absolute;
     bottom: 5px;
     left: 20px;
+    span {
+      background-color: #cac7ce;
+      padding: 5px;
+      border-radius: 3px;
+    }
+    a {
+      text-decoration: none;
+      display: inline-block;
+      padding: 5px;
+      border-radius: 3px;
+      margin-left: 20px;
+    }
+    a:hover {
+      background-color: #cac7ce;
+    }
   }
 }
 
@@ -262,6 +277,48 @@ header {
   -ms-transform: scale(1.02);
   -o-transform: scale(1.02);
   transform: scale(1.02);
+}
+
+section {
+  .tags {
+    display: inline-block;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+
+    .current-tag {
+      text-decoration: none;
+      display: inline-block;
+      background-color: #d1c4e9;
+      padding: 3px;
+      border-radius: 10px;
+      margin-bottom: 3px;
+      font-size: 20px;
+    }
+    a {
+      text-decoration: none;
+      display: inline-block;
+      background-color: #d1c4e9;
+      padding: 3px;
+      border-radius: 10px;
+      margin-bottom: 3px;
+      font-size: 13px;
+    }
+  }
+}
+
+// Categories
+section .categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $background-light-secondary;
+  width: 700px;
+  a {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+  }
 }
 
 // Clouds

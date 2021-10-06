@@ -23,11 +23,23 @@
             </div>
             {% endif %}
 
-
         </div>
 
     </a>
-    <p class="blog-footer">{{post.date | date_to_string}}</p>
+    <p class="blog-footer">
+        <span>
+            {{post.date | date_to_string}}
+        </span>
+        {% for category in post.categories %}
+        {% if category != "blog" and category != "categories" %}
+        <a href="/blog/categories/{{category}}.html">
+            {{ category | capitalize }}
+        </a>
+        {% endif %}
+        {% endfor %}
+    </p>
+
+
 
 
 </article>
