@@ -17,7 +17,9 @@ A portfolio website to showcase projects and write blog posts
 ## Requirements
 
 - Node (for projects to be pulled in prebuild)
-- Ruby and Jekyll (gem) see: https://jekyllrb.com/docs/installation/
+- Ruby and Jekyll (gem) see: https://jekyllrb.com/docs/installation/macos/
+    - https://stackoverflow.com/questions/51126403/you-dont-have-write-permissions-for-the-library-ruby-gems-2-3-0-directory-ma
+    - https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/?utm_source=stackoverflow
 
 ### Development
 
