@@ -14,12 +14,10 @@ title: Home
 
 <section>
     <div class="section-header">
-        <!-- <a href="/projects.html"> -->
         <h1>latest</h1>
-        <!-- </a> -->
     </div>
     <div class="section-body">
-        {% assign sorted_pages = site.data.project-data | sort:"order" %}
+        {% assign sorted_pages = site.data.project-data %}
         {% for project in sorted_pages limit:1 %}
         {% include project.html %}
         {% endfor %}
@@ -31,16 +29,11 @@ title: Home
 </section>
 
 <section>
-    <!-- <div class="section-header">
-        <a href="/blog.html">
-            <h2>blog</h2>
-        </a>
-    </div> -->
     <div class="section-body">
         {% for post in site.posts limit:1 %}
         {% include blog-excerpt.html %}
         {% endfor %}
-        <a href="/blog.html">
+        <a href="/blog/">
             <h4>more posts</h4>
         </a>
     </div>

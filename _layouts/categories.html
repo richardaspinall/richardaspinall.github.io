@@ -1,0 +1,65 @@
+---
+layout: default
+custom_css: blog-custom
+---
+
+<div>
+    <section>
+        <div class="section-body">
+            <div class="categories">
+                {% if page.url == "/blog/categories/" %}
+                <a href="/blog/categories/">
+                    <h1>All</h1>
+                </a>
+                {% else %}
+                <a href="/blog/categories/">
+                    <h3>All</h3>
+                </a>
+                {% endif %}
+
+
+                {% assign categories = site.categories | sort %}
+                {% for category in categories %}
+                {% if category[0] != "blog" and category[0] != "categories" %}
+                {% if category[0] contains page.category-name %}
+                <a href="{{category[0]}}.html">
+                    <h1>{{ category[0] | capitalize }}</h1>
+                </a>
+                {% else %}
+                <a href="{{category[0]}}.html">
+                    <h3>{{ category[0] | capitalize }}</h3>
+                </a>
+                {% endif %}
+                {% endif %}
+
+                {% endfor %}
+            </div>
+        </div>
+
+
+        {% if page.url == "/blog/categories/" %}
+
+        <div class="section-body">
+            {% for post in site.posts %}
+
+            {% include blog-excerpt.html %}
+
+            {% endfor %}
+        </div>
+
+        {% else %}
+
+        <div class="section-body">
+            {% for post in site.posts %}
+            {% if post.categories contains page.category-name %}
+            {% include blog-excerpt.html %}
+            {% endif %}
+            {% endfor %}
+        </div>
+
+        {% endif %}
+
+
+    </section>
+
+</div>

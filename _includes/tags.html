@@ -1,0 +1,28 @@
+{% assign tags = "" | split: ',' %}
+{% for tag in site.tags %}
+{% assign t = tag[0] | downcase %}
+{% assign tags = tags | push: t %}
+{% endfor %}
+
+{% for project in site.data.project-data %}
+{% assign tags = tags | concat: project.topics.names %}
+{% endfor %}
+
+{% assign tags = tags | uniq | sort %}
+
+<section>
+
+    <div class="section-body tags">
+
+        {% for tag in tags %}
+        {% if tag == page.tag-name %}
+        <label class="current-tag"><strong>{{ tag | upcase }}</strong></label>
+        {% else %}
+        <a href="/tags/{{tag}}.html">
+            {{ tag | upcase }}
+        </a>
+        {% endif %}
+        {% endfor %}
+
+    </div>
+</section>
