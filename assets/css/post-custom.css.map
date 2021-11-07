@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "post-custom.css",
+	"sources": [
+		"post-custom.scss",
+		"_sass/globals.scss"
+	],
+	"sourcesContent": [
+		"@import 'globals';\n@import 'monokai.css';\n\n.blog-post {\n  height: auto;\n  // width: 100%;\n  border: none;\n  border-radius: 0px;\n  padding: 20px;\n\n  ul,\n  li {\n    margin-left: 20px;\n  }\n  .blog-post-content {\n    font-weight: 400;\n\n    img {\n      float: left;\n      margin-right: 20px;\n      margin-bottom: 20px;\n      max-width: 100%;\n      max-height: 260px;\n    }\n    a {\n      color: $font-link;\n      text-decoration: underline;\n    }\n\n    .floatright {\n      float: right;\n    }\n    figure {\n      pre {\n        padding: 20px;\n      }\n    }\n  }\n}\n",
+		"$background-dark: #1f1c1c;\n$background-light: #b0c4de;\n$background-light-secondary: #eaeff2;\n\n$font-dark: #1f1c1c;\n$font-light: #eaeff2;\n\n$font-link: blue;\n"
+	],
+	"names": [],
+	"mappings": "AACA,OAAO,CAAP,gBAAO;AAEP,AAAA,UAAU,CAAC,EACT,MAAM,EAAE,IAAI,EAEZ,MAAM,EAAE,IAAI,EACZ,aAAa,EAAE,GAAG,EAClB,OAAO,EAAE,IAAI,GA8Bd;;AAnCD,AAOE,UAPQ,CAOR,EAAE,EAPJ,UAAU,CAQR,EAAE,CAAC,EACD,WAAW,EAAE,IAAI,GAClB;;AAVH,AAWE,UAXQ,CAWR,kBAAkB,CAAC,EACjB,WAAW,EAAE,GAAG,GAsBjB;;AAlCH,AAcI,UAdM,CAWR,kBAAkB,CAGhB,GAAG,CAAC,EACF,KAAK,EAAE,IAAI,EACX,YAAY,EAAE,IAAI,EAClB,aAAa,EAAE,IAAI,EACnB,SAAS,EAAE,IAAI,EACf,UAAU,EAAE,KAAK,GAClB;;AApBL,AAqBI,UArBM,CAWR,kBAAkB,CAUhB,CAAC,CAAC,EACA,KAAK,EClBC,IAAI,EDmBV,eAAe,EAAE,SAAS,GAC3B;;AAxBL,AA0BI,UA1BM,CAWR,kBAAkB,CAehB,WAAW,CAAC,EACV,KAAK,EAAE,KAAK,GACb;;AA5BL,AA8BM,UA9BI,CAWR,kBAAkB,CAkBhB,MAAM,CACJ,GAAG,CAAC,EACF,OAAO,EAAE,IAAI,GACd"
+}
